@@ -4,9 +4,9 @@ Jeg vil bruge Platformio, Microsoft’s  Visual Studio Code, sammen med Arduino 
 Jeg har lavet ESP32 udviklings kit til dette kursus som eleverne får udleveret ved kursus start, softwaren vi skal bruge er gratis. 
 Eleverne skal selv medbringe en Pc til kursuset, undervisningen vil bruge et mødelokale til teori og 1.sal på metal værkstedet til praktiske opgaver.
 
-Kursus starter den 5/2 2020 kl.: 12:30, mødested metalværkstedet
-Niels Jørgen Jensen vil holde de første møder fra 5/2 til 26/2, hvor i vil begynde at definere den robot I skal bruge.
-Svenn-Erik K. Thomsen vil begynde undervisning i programering den 4/3 2020 kl.: 12:30
+Kursus starter den 5/2 2020 kl.: 12:30, mødested metalværkstedet  
+* Niels Jørgen Jensen vil holde de første møder fra 5/2 til 26/2, hvor i vil begynde at definere den robot I skal bruge.
+* Svenn-Erik K. Thomsen vil begynde undervisning i programering den 4/3 2020 kl.: 12:30
 
 ## Tilmelding kan ske på ved af udfyllde spørgsmålene i disse link
 Robot & Microprosessor Kursus 2020 :
