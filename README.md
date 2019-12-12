@@ -58,6 +58,17 @@ mkdir ~/Dokumenter/ESP32/
 cd ~/Dokumenter/ESP32/
 git clone https://github.com/sekt1953/ESP32-Seniorhus-2020-1.git
 ```
+## PlatformIO
+### Default settings:
+Dokumentation her http://docs.platformio.org/en/latest/userguide/cmd_settings.html#projects-dir
+Åben new terminal i PlatformIO og tast
+```
+platformio settings get
+```
+Ændre nu **projects_dir** til **~/Dokumenter/ESP32**
+```
+platformio settings set projects_dir ~/Dokumenter/ESP32
+```
 ## Start et nyt Project i PlatformIO
 ### PlatformIO - New Project
 | Option | Værdi |
