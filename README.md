@@ -32,7 +32,9 @@ https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0Dw
 ![PCH Images](/Fritzing/ESP32_PCB_A_002_b_bb.png)
 
 ## ESP 32 Pin Layout
-![ESP32](http://forum.fritzing.org/uploads/default/optimized/2X/a/ae3dc4cc089ce3e73de2d367da5dbf22102bd7c3_1_690x399.jpg)
+![ESP32](http://forum.fritzing.org/uploads/default/optimized/2X/a/ae3dc4cc089ce3e73de2d367da5dbf22102bd7c3_1_690x399.jpg)  
+[ESP32S-HiLetgo Dev Boad with Pinout Template](https://forum.fritzing.org/t/esp32s-hiletgo-dev-boad-with-pinout-template/5357)
+
 
 ## Installation af VSC & PlatformIO
 Se denne video fra Andreas Spiess:
@@ -57,8 +59,7 @@ mkdir ~/Dokumenter/ESP32/
 cd ~/Dokumenter/ESP32/
 git clone https://github.com/sekt1953/ESP32-Seniorhus-2020-1.git
 ```
-## PlatformIO
-### New Project
+## PlatformIO - New Project
 | Navn | værdi |
 | -----|------ | 
 | Name: | ? | 
