@@ -6,7 +6,7 @@ Kursus starter den 4/3 2020 kl.: 12:30, mødested metalværkstedet
 Robot & Microprosessor Kursus 2020 :
 https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0DwIxAxN89SXg/viewform
 
-## Matrialer
+## Matrialer til CPU kort
 | Navn | Link | Pris DKr.|
 | ---- |--- | ---|
 | ESP32 | https://www.aliexpress.com/item/32807887667.html?spm=a2g0s.9042311.0.0.21714c4dOmX9y0 | 32.00 |
