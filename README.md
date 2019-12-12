@@ -38,7 +38,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0Dw
 
 ## Installation af VSC & PlatformIO
 Se denne video fra Andreas Spiess:
-* [#264 PlatformIO for Arduino, ESP8266, and ESP32 Tutorial](https://www.youtube.com/watch?v=0poh_2rBq7E&list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9&index=38)  
+* ![#264 PlatformIO for Arduino, ESP8266, and ESP32 Tutorial](https://www.youtube.com/watch?v=0poh_2rBq7E&list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9&index=38)  
 
 Hent Visual Studio Code her:
 * https://code.visualstudio.com/download  
@@ -60,7 +60,7 @@ cd ~/Dokumenter/ESP32/
 git clone https://github.com/sekt1953/ESP32-Seniorhus-2020-1.git
 ```
 ## PlatformIO - New Project
-| Navn | værdi |
+| Option | Værdi |
 | -----|------ | 
 | Name: | ? | 
 | Board: | Espressif ESP32 Dev Module |
