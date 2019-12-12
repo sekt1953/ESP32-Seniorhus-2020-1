@@ -1,7 +1,13 @@
-# ESP32-Seniorhus-2020-1
+# ESP32-Seniorhus-2020-1 Robot & Microprosessor Kursus
+Min ide er at oprette et kursus hvor vi bruger en lille microprossor ESP32 som har både Bluetooth, Wifi og Flash disk indbygget, med den kan vi styre vores udstyr fra en Smartphone eller iPad.  
+Jeg vil bruge Platformio, Microsoft’s  Visual Studio Code, sammen med Arduino IDE, når vi kommer i gang skal vi samarbejde med 3D holdet om at lave dele til en robot, bil eller andet som vi kan styre.  
+Jeg har lavet ESP32 udviklings kit til dette kursus som eleverne får udleveret ved kursus start, softwaren vi skal bruge er gratis. 
+Eleverne skal selv medbringe en Pc til kursuset, undervisningen vil bruge et mødelokale til teori og 1.sal på metal værkstedet til praktiske opgaver.
 
-I dette repository findes kursus matriale til brug i ESP32 Robot & Microprosessor Kursus 2020 
-Kursus starter den 4/3 2020 kl.: 12:30, mødested metalværkstedet
+Kursus starter den 5/2 2020 kl.: 12:30, mødested metalværkstedet
+Niels Jørgen Jensen vil holde de første møder fra 5/2 til 26/2, hvor i vil begynde at definere den robot I skal bruge.
+Svenn-Erik K. Thomsen vil begynde undervisning i programering den 4/3 2020 kl.: 12:30
+
 ## Tilmelding kan ske på ved af udfyllde spørgsmålene i disse link
 Robot & Microprosessor Kursus 2020 :
 https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0DwIxAxN89SXg/viewform
