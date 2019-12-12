@@ -33,3 +33,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0Dw
 
 ## ESP 32 Pin Layout
 ![ESP32](http://forum.fritzing.org/uploads/default/optimized/2X/a/ae3dc4cc089ce3e73de2d367da5dbf22102bd7c3_1_690x399.jpg)
+
+## Installation af VSC & PlatformIO
+Se denne video fra Andreas Spiess:
+* [#264 PlatformIO for Arduino, ESP8266, and ESP32 Tutorial](https://www.youtube.com/watch?v=0poh_2rBq7E&list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9&index=38)
