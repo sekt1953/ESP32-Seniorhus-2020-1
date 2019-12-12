@@ -60,8 +60,8 @@ git clone https://github.com/sekt1953/ESP32-Seniorhus-2020-1.git
 ## PlatformIO
 ### New Project
 | Navn | værdi |
-| --|-- | 
-| Name: | | 
+| -----|------ | 
+| Name: | ? | 
 | Board: | Espressif ESP32 Dev Module |
 | Framework: | Arduino |
 | Location: | ~/Dokumenter/ESP32/ |
