@@ -12,6 +12,13 @@ Kursus starter den 5/2 2020 kl.: 12:30, mødested metalværkstedet
 Robot & Microprosessor Kursus 2020 :
 https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0DwIxAxN89SXg/viewform
 
+## PCB Layout
+![PCH Images](/Fritzing/ESP32_PCB_A_002_b_bb.png)
+
+## ESP 32 Pin Layout
+![ESP32](http://forum.fritzing.org/uploads/default/optimized/2X/a/ae3dc4cc089ce3e73de2d367da5dbf22102bd7c3_1_690x399.jpg)  
+[ESP32S-HiLetgo Dev Boad with Pinout Template](https://forum.fritzing.org/t/esp32s-hiletgo-dev-boad-with-pinout-template/5357)
+
 ## Matrialer til CPU kort
 | Navn | Link | Pris DKr.|
 | ---- |--- | ---|
@@ -27,14 +34,6 @@ https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0Dw
 | breakaway Straight female header 40 pins | https://www.aliexpress.com/item/2046245030.html?spm=a2g0s.9042311.0.0.27424c4dcyutn6 | 3.00 |
 | SMD 220 Ohm | https://www.aliexpress.com/item/32847115923.html?spm=a2g0o.productlist.0.0.79b47e92Q9RMe2&algo_pvid=513a7157-4b4c-47b4-a368-329f278bac1f&algo_expid=513a7157-4b4c-47b4-a368-329f278bac1f-0&btsid=5dde7322-30b2-443f-abcf-61bfba64a9b9&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_53 | 1.00 |
 | Sokkel til Print | 3D Print | 13.00 |
-
-## PCB Layout
-![PCH Images](/Fritzing/ESP32_PCB_A_002_b_bb.png)
-
-## ESP 32 Pin Layout
-![ESP32](http://forum.fritzing.org/uploads/default/optimized/2X/a/ae3dc4cc089ce3e73de2d367da5dbf22102bd7c3_1_690x399.jpg)  
-[ESP32S-HiLetgo Dev Boad with Pinout Template](https://forum.fritzing.org/t/esp32s-hiletgo-dev-boad-with-pinout-template/5357)
-
 
 ## Installation af VSC & PlatformIO
 Se denne video fra Andreas Spiess:
@@ -59,7 +58,8 @@ mkdir ~/Dokumenter/ESP32/
 cd ~/Dokumenter/ESP32/
 git clone https://github.com/sekt1953/ESP32-Seniorhus-2020-1.git
 ```
-## PlatformIO - New Project
+## Start et nyt Project i PlatformIO
+### PlatformIO - New Project
 | Option | Værdi |
 | -----|------ | 
 | Name: | ? | 
