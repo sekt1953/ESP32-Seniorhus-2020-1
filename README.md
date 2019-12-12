@@ -60,7 +60,7 @@ git clone https://github.com/sekt1953/ESP32-Seniorhus-2020-1.git
 ```
 ## PlatformIO
 ### Default settings:
-Dokumentation her http://docs.platformio.org/en/latest/userguide/cmd_settings.html#projects-dir
+Dokumentation her http://docs.platformio.org/en/latest/userguide/cmd_settings.html#projects-dir  
 Åben new terminal i PlatformIO og tast
 ```
 platformio settings get
