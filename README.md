@@ -20,5 +20,5 @@ https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0Dw
 | 40pcs 20cm 2.54mm 1p-1p Pin Female to Female | https://www.aliexpress.com/item/32836050778.html?spm=a2g0s.9042311.0.0.27424c4dPDYsiU | 8.00 |
 | 1X40 pin breakaway Straight female header 40 pins | https://www.aliexpress.com/item/2046245030.html?spm=a2g0s.9042311.0.0.27424c4dcyutn6 | 3.00 |
 | SMD 220 Ohm | https://www.aliexpress.com/item/32847115923.html?spm=a2g0o.productlist.0.0.79b47e92Q9RMe2&algo_pvid=513a7157-4b4c-47b4-a368-329f278bac1f&algo_expid=513a7157-4b4c-47b4-a368-329f278bac1f-0&btsid=5dde7322-30b2-443f-abcf-61bfba64a9b9&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_53 | 1.00 |
-
+| Sokkel til Print | - | 13.00 |
 
