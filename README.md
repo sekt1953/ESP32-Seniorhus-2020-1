@@ -35,7 +35,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0Dw
 | SMD 220 Ohm | https://www.aliexpress.com/item/32847115923.html?spm=a2g0o.productlist.0.0.79b47e92Q9RMe2&algo_pvid=513a7157-4b4c-47b4-a368-329f278bac1f&algo_expid=513a7157-4b4c-47b4-a368-329f278bac1f-0&btsid=5dde7322-30b2-443f-abcf-61bfba64a9b9&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_53 | 1.00 |
 | Sokkel til Print | https://github.com/sekt1953/ESP32-Seniorhus-2020-1/blob/master/FreeCad/Printholder-001.stl | 13.00 |
 
-## Installation af VSC & PlatformIO
+# Installation af VSC & PlatformIO
 Se denne video fra Andreas Spiess:
 * [#264 PlatformIO for Arduino, ESP8266, and ESP32 Tutorial](https://www.youtube.com/watch?v=0poh_2rBq7E&list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9&index=38)  
 
@@ -95,7 +95,8 @@ vil give et output som dette:
 platformio settings set projects_dir ~/Dokumenter/ESP32
 ```
 ## Start et nyt Project i PlatformIO - New Project
-Start et nyt ptoject med disse standard værdier og erstat ? med dit project navn
+Start et nyt ptoject med disse standard værdier og erstat ? med dit project navn  
+
 | Option | Værdi |
 | -----|------ | 
 | Name: | ? | 
