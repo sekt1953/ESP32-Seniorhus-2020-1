@@ -67,22 +67,64 @@ sudo apt install python3-distutils
 ```
 [Klik her for at hente og installer Visual Studio Code](https://code.visualstudio.com/download)
 
-## PlatformIO
-### Default settings:
-Dokumentation her http://docs.platformio.org/en/latest/userguide/cmd_settings.html#projects-dir  
-Åben new terminal i PlatformIO og tast
+# PlatformIO
+## Default settings:
+[Klik for at se PlatformIO nyeste userguide](http://docs.platformio.org/en/latest/userguide/cmd_settings.html#projects-dir)  
+
+### Åben new terminal i PlatformIO og tast
 ```
 platformio settings get
 ```
-Ændre nu **projects_dir** til **~/Dokumenter/ESP32**
+vil give et output som dette:
+
+| Name | Current value [Default] | Description |
+|-------------------------- |------------------------ |------------ |
+| auto_update_libraries     | No | Automatically update libraries (Yes/No) |
+| auto_update_platforms     | No | Automatically update platforms (Yes/No) |
+| check_libraries_interval  | 7  | Check for the library updates interval (days) |
+| check_platformio_interval | 3  | Check for the new PlatformIO interval (days) |
+| check_platforms_interval  | 7  | Check for the platform updates interval (days) |
+| enable_cache              | Yes | Enable caching for API requests and Library Manager |
+| enable_telemetry          | Yes | Telemetry service <http://bit.ly/pio-telemetry> (Yes/No) |
+| force_verbose             | No | Force verbose output when processing environments |
+| projects_dir              | /home/sekt/Documents/PlatformIO/Projects | Default location for PlatformIO projects (PIO Home) |
+| strict_ssl                | No | Strict SSL for PlatformIO Services |
+
+### Ændre nu **projects_dir** til **~/Dokumenter/ESP32**
 ```
 platformio settings set projects_dir ~/Dokumenter/ESP32
 ```
-## Start et nyt Project i PlatformIO
-### PlatformIO - New Project
+## Start et nyt Project i PlatformIO - New Project
+Start et nyt ptoject med disse standard værdier og erstat ? med dit project navn
 | Option | Værdi |
 | -----|------ | 
 | Name: | ? | 
 | Board: | Espressif ESP32 Dev Module |
 | Framework: | Arduino |
-| Location: | ~/Dokumenter/ESP32/ |
+| Location: | [√] Use default location  |
+
+Tryk på [Finish] når alle felter er udfyldt.
+
+## Åben og juster platformio.ini tilhørende dit project 
+Når du åbner filen vil den se ud som denne:
+```
+;PlatformIO Project Configuration File
+;
+;   Build options: build flags, source filter
+;   Upload options: custom upload port, speed and extra flags
+;   Library options: dependencies, extra library storages
+;   Advanced options: extra scripting
+;
+; Please visit documentation for the other options and examples
+; https://docs.platformio.org/page/projectconf.html
+
+[env:esp32dev]
+platform = espressif32
+board = esp32dev
+framework = arduino
+```
+Tilføj nu denne linie, den angiver den hastighed, ved hvilken [bit transmitteres](https://www.mathworks.com/help/matlab/matlab_external/baudrate.html), via vores serial port.
+
+```
+monitor_speed=115200
+```
