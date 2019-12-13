@@ -39,25 +39,35 @@ https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0Dw
 Se denne video fra Andreas Spiess:
 * [#264 PlatformIO for Arduino, ESP8266, and ESP32 Tutorial](https://www.youtube.com/watch?v=0poh_2rBq7E&list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9&index=38)  
 
-Hent Visual Studio Code her:
-* https://code.visualstudio.com/download  
-
-For linux bruger åben terminal og indsæt
+For linux bruger åben terminal og indsæt linier en af gangen !!
 ```bash
+# opret directory til dine bin filer
 mkdir -p ~/.local/bin
 PATH="$PATH:$HOME/bin"
 
+# giv default bruger adgang til serial port
 sudo usermod -a -G dialout $USER
 
+# opdater din linux
 sudo apt update
 sudo apt full-upgrade -y
 
+# installer nogle hjælpe programmer
 sudo apt install -y git pinta geany* vlc putty
 
-mkdir ~/Dokumenter/ESP32/
+# opret mappe til projecter
+mkdir -p ~/Dokumenter/ESP32/
 cd ~/Dokumenter/ESP32/
+
+# clone reposetry
 git clone https://github.com/sekt1953/ESP32-Seniorhus-2020-1.git
+
+# install python util for PlatformIO
+sudo apt install python3-distutils
 ```
+Hent Visual Studio Code her:
+* https://code.visualstudio.com/download  
+
 ## PlatformIO
 ### Default settings:
 Dokumentation her http://docs.platformio.org/en/latest/userguide/cmd_settings.html#projects-dir  
