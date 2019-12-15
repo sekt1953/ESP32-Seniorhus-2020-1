@@ -76,15 +76,17 @@ cd ~
 * Tryk install og vent indtil installationen er afsluttet. 
 * Genstart når det ønskes.
 
-## Default settings:
+## Tilpas default settings:
 [Klik for at se PlatformIO nyeste userguide](http://docs.platformio.org/en/latest/userguide/cmd_settings.html#projects-dir)  
 
-### Åben new terminal i PlatformIO og tast
-
+* Åben new terminal Platformio
+  * Klik Platformio logo
+  * Klik *New Terminal* under *Miscellaneous*
+* indtast nu følgende linie i Terminal vinduet:
 ```
 platformio settings get
 ```
-vil give et output som dette:
+* vil give et output som dette:
 
 | Name | Current value [Default] | Description |
 |-------------------------- |------------------------ |------------ |
@@ -99,12 +101,13 @@ vil give et output som dette:
 | projects_dir              | /home/sekt/Documents/PlatformIO/Projects | Default location for PlatformIO projects (PIO Home) |
 | strict_ssl                | No | Strict SSL for PlatformIO Services |
 
-### Ændre nu **projects_dir** til **~/Dokumenter/ESP32**
+* Ændre nu **projects_dir** til **~/Dokumenter/ESP32**
+  * indtast nu følgende linie i terminal vinduet:
 ```
 platformio settings set projects_dir ~/Dokumenter/ESP32
 ```
 ## Start et nyt Project i PlatformIO - New Project
-Start et nyt ptoject med disse standard værdier og erstat ? med dit project navn  
+Start et nyt ptoject med disse standard værdier og erstat ? med dit project navn (ESP32_Blink)
 
 | Option | Værdi |
 | -----|------ | 
