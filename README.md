@@ -51,6 +51,7 @@ sudo usermod -a -G dialout $USER
 # opdater din linux
 sudo apt update
 sudo apt full-upgrade -y
+sudo apt autoremove -y
 
 # installer nogle hjælpe programmer
 sudo apt install -y git pinta geany* vlc putty
@@ -59,11 +60,12 @@ sudo apt install -y git pinta geany* vlc putty
 mkdir -p ~/Dokumenter/ESP32/
 cd ~/Dokumenter/ESP32/
 
+# install python util for PlatformIO
+sudo apt install python3-distutils
+
 # clone reposetry
 git clone https://github.com/sekt1953/ESP32-Seniorhus-2020-1.git
 
-# install python util for PlatformIO
-sudo apt install python3-distutils
 ```
 [Klik her for at hente og installer Visual Studio Code](https://code.visualstudio.com/download)
 
