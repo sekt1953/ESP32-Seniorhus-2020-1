@@ -17,8 +17,7 @@
 
 ### Marlin
 [Marlin v1.1.8 3D Printer Firmware Complete Config - 2018 - Chris's Basement
-](https://www.youtube.com/watch?v=0pt_b2ZizQM&list=PLB_0YGFjbOnYdZx8Xq4hQvem0xydOaaKv&index=4)
-
+](https://www.youtube.com/watch?v=0pt_b2ZizQM&list=PLB_0YGFjbOnYdZx8Xq4hQvem0xydOaaKv&index=4)  
 [Marlin 1.1.8 Bed Skew Compensation - How To - 2018 - Chris's Basement
 ](https://www.youtube.com/watch?v=YfAb5IaHDSo&list=PLB_0YGFjbOnYdZx8Xq4hQvem0xydOaaKv&index=1)
 
