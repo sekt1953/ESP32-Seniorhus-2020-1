@@ -10,7 +10,21 @@
 [TMC2209 Stepper Drivers - Bigtreetech - SKR 1.3 - Install - Chris's Basement
 ](https://www.youtube.com/watch?v=H5ea2iyOscg)
 
+[TMC2100 guide - Stepper driver upgrades part 1 / How to set VREF & firmware
+](https://www.youtube.com/watch?v=H41hIXdB6js)  
+[TMC2208 guide - Stepper driver upgrades part 2
+](https://www.youtube.com/watch?v=7VHwcEroHPk&t=994s)
+
 ### Marlin
+[Marlin v1.1.8 3D Printer Firmware Complete Config - 2018 - Chris's Basement
+](https://www.youtube.com/watch?v=0pt_b2ZizQM&list=PLB_0YGFjbOnYdZx8Xq4hQvem0xydOaaKv&index=4)
+
+[Marlin 1.1.8 Bed Skew Compensation - How To - 2018 - Chris's Basement
+](https://www.youtube.com/watch?v=YfAb5IaHDSo&list=PLB_0YGFjbOnYdZx8Xq4hQvem0xydOaaKv&index=1)
+
+[Marlin Unified Bed Leveling - How To - Chris's Basement
+](https://www.youtube.com/watch?v=ONpKxkil16Q&list=PLB_0YGFjbOnYdZx8Xq4hQvem0xydOaaKv&index=7)
+
 [Compiling Marlin 2 0 with VsCode and PlatformIO
 ](https://www.youtube.com/watch?v=KZZXaDGCWpo)
 
