@@ -106,7 +106,7 @@ platformio settings get
 ```
 platformio settings set projects_dir ~/Dokumenter/ESP32
 ```
-## Start et nyt Project i PlatformIO - New Project
+# Start et nyt Project i PlatformIO - New Project
 Start et nyt ptoject med disse standard værdier og erstat ? med dit project navn (ESP32_Blink)
 
 | Option | Værdi |
