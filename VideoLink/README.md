@@ -1,7 +1,11 @@
 # Intro til Git & Github  
-[Learn Git in 20 Minutes](https://www.youtube.com/watch?v=IHaTbJPdB-s)  
-[Installer Git](https://www.youtube.com/watch?v=HfTXHrWMGVY)  
-[GitHub Fork](https://www.youtube.com/watch?v=HbSjyU2vf6Y)  
+[Web Dev Simplified - Git](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw/search?query=git)  
+* [Learn Git in 20 Minutes](https://www.youtube.com/watch?v=IHaTbJPdB-s)  
+* [Introduction to Web Development - Installer Git](https://www.youtube.com/watch?v=HfTXHrWMGVY)
+
+[The Net Ninja - Git](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/search?query=git)  
+* [Git & GitHub Tutorial for Beginners #12 - Forking (& Contributing)](https://www.youtube.com/watch?v=HbSjyU2vf6Y)  
+
 [Data School - Git](https://www.youtube.com/user/dataschool/search?query=git)  
 * [Version control with Git and GitHub](https://www.youtube.com/watch?v=xKVlZ3wFVKA&list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD)
 * [Forking a GitHub Repository](https://www.youtube.com/watch?v=f5grYMXbAV0)
