@@ -1,0 +1,55 @@
+/*
+ * http://kd8bxp.blogspot.com/2017/09/create-unique-ssid-with-esp32-board.html
+ 
+ Create a unique SSID with a ESP32 board.
+ I recently started to work on a ESP32 project. And I needed a unique SSID for each access point I was creating.
+ I didn't want to hard code a different SSID in each device, since that would be time consuming.
+ I did what most people do and googled what I wanted to do.  And I really didn't find what I was looking for.
+ The ESP32 doesn't really have a unique ID itself, but it does contain a MAC address that should be different on each device.
+ I did find a sketch that does give the MAC address: https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/ChipID/GetChipID/GetChipID.ino
+ But I still need a unique SSID - well here's how to do it....as simple as I can make it.
+ 
+ * http://www.cplusplus.com/reference/cstdio/snprintf/
+
+ snprintf:  int snprintf ( char * s, size_t n, const char * format, ... );
+            Write formatted output to sized buffer
+            Composes a string with the same text that would be printed if format was used on printf, but instead of being printed, the content is stored as a C string in the buffer pointed by s (taking n as the maximum buffer capacity to fill).
+            If the resulting string would be longer than n-1 characters, the remaining characters are discarded and not stored, but counted for the value returned by the function.
+            A terminating null character is automatically appended after the content written.
+            After the format parameter, the function expects at least as many additional arguments as needed for format.
+ Parameters:
+ s          Pointer to a buffer where the resulting C-string is stored. 
+            The buffer should have a size of at least n characters.
+ n          Maximum number of bytes to be used in the buffer. 
+            The generated string has a length of at most n-1, leaving space for the additional terminating null character.
+            size_t is an unsigned integral type.
+format      C string that contains a format string that follows the same specifications as format in printf (see printf for details).
+...         (additional arguments)
+            Depending on the format string, the function may expect a sequence of additional arguments, each containing a value to be used to replace a format specifier in the format string (or a pointer to a storage location, for n).
+            There should be at least as many of these arguments as the number of values specified in the format specifiers. Additional arguments are ignored by the function.
+Return Value:
+            The number of characters that would have been written if n had been sufficiently large, not counting the terminating null character.
+            If an encoding error occurs, a negative number is returned.
+            Notice that only when this returned value is non-negative and less than n, the string has been completely written.
+*/
+
+#include <WiFi.h>
+
+char ssid[15];                                      // Create a Unique AP from MAC address
+
+void createSSID() {
+    uint64_t chipid=ESP.getEfuseMac();              // The chip ID is essentially its MAC address(length: 6 bytes).
+    uint16_t chip = (uint16_t)(chipid>>32);
+    snprintf(ssid,15,"LoRaHam-%04X",chip);          // http://www.cplusplus.com/reference/cstdio/snprintf/
+}
+
+void setup() {
+    createSSID();
+    Serial.begin(9600);
+    WiFi.softAP(ssid, password);
+    IPAddress myIP = WiFi.softAPIP();
+    Serial.print("AP IP address: ");
+    Serial.println(myIP);
+    Serial.print("SSID: ");
+    Serial.println(ssid);
+}
