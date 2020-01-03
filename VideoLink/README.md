@@ -19,9 +19,22 @@
 [Thenewboston - Git](https://www.youtube.com/user/thenewboston/search?query=git)  
 * [GitHub Watch Star and Fork](https://www.youtube.com/watch?v=W7oR8-9H0gs)
 # JSON
-[Learn JSON in 10 Minutes](https://www.youtube.com/watch?v=iiADhChRriM)  
-[Arduino Tutorial - Outputting JSON over Serial](https://www.youtube.com/watch?v=z_rPvQhKTfY&t=71s)
+* [Learn JSON in 10 Minutes](https://www.youtube.com/watch?v=iiADhChRriM)  
+* [Arduino Tutorial - Outputting JSON over Serial](https://www.youtube.com/watch?v=z_rPvQhKTfY&t=71s)
 # Python
-[How to Run Python in Ubuntu 18.04 LTS | Python in Ubuntu 18.04 LTS Bionic Beaver](https://www.youtube.com/watch?v=DAQemCoCYiw)
+* [How to Run Python in Ubuntu 18.04 LTS | Python in Ubuntu 18.04 LTS Bionic * Beaver](https://www.youtube.com/watch?v=DAQemCoCYiw)
 # Linux
-[Linux File System/Structure Explained!](https://www.youtube.com/watch?v=HbgzrKJvDRw&t=5s)
+* [Linux File System/Structure Explained!](https://www.youtube.com/watch?v=HbgzrKJvDRw&t=5s)  
+# Raspberry Pi
+## Mozilla WebThings
+* [Getting Started with Mozilla WebThings Part 1: Setup on a Raspberry Pi](https://www.youtube.com/watch?v=WHite8vdcbE&t=161s)
+* [Getting Started with Mozilla WebThings Part 2: Building an ESP8266 Temperature Sensor with Arduino](https://www.youtube.com/watch?v=papxaeII0vo)
+* [Taking Control Of Your Own Private Smart Home With Mozilla WebThings](https://www.youtube.com/watch?v=7qhKwezvlFA)
+* [Mozilla IoT Framework - Kathy Giori (Mozilla)](https://www.youtube.com/watch?v=mWCa6byiPco&t=6s)
+* [Easy Home Automation With Mozilla IoT & Raspberry Pi - Part 1](https://www.youtube.com/watch?v=maSdWQHSzCg&t=9s)
+
+## USB-Disk boot
+* [How to boot Raspberry PI4 from USB](https://www.youtube.com/watch?v=FM9wuFLufyA)  
+* [Raspberry Pi 4 SD to USB SSD Boot](https://www.youtube.com/watch?v=2rglzPdsvYg)  
+* [Mobile Raspberry Pi with ANY iPad. No USB-C needed.](https://www.youtube.com/watch?v=YbvSS8MJm2s&t=167s)  
+* 
