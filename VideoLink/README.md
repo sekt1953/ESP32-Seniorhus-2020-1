@@ -2,7 +2,11 @@
 [Web Dev Simplified - Git](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw/search?query=git)  
 * [Learn Git in 20 Minutes](https://www.youtube.com/watch?v=IHaTbJPdB-s)  
 * [Introduction to Web Development - Installer Git](https://www.youtube.com/watch?v=HfTXHrWMGVY)
+* [Git installation](https://youtu.be/HfTXHrWMGVY?t=63)
 
+[TechRuzz - Git](https://www.youtube.com/channel/UChE7bRxRH2_gv7HaFmLR8iw/search?query=git)
+* [How to Create a GitHub Account - 2020](https://www.youtube.com/watch?v=6U7_Om4zffM)  
+  
 [The Net Ninja - Git](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/search?query=git)  
 * [Git & GitHub Tutorial for Beginners #12 - Forking (& Contributing)](https://www.youtube.com/watch?v=HbSjyU2vf6Y)  
 
