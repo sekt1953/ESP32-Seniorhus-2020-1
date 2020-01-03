@@ -156,18 +156,21 @@ git config --global user.email "Din GitHub email adresse"
 git config --global core.editor "code --wait"
 ```
 ## Setup Git SSH :
+Video : [Opret SSH login on Github](https://youtu.be/HfTXHrWMGVY?t=144)
 ```bash
 # Check for SSH Key
 ls ~/.ssh
 
 # Creaate an SSH Key
 ssh-keygen -t rsa -b 4096 -C "Din GitHub email adresse"
-
+```
+Video : [Opret SSH login on Github - Copy SSH-Key](https://youtu.be/HfTXHrWMGVY?t=219)
+```bash
 # Copy the SSH Key
 sudo apt install -y xclip
 xclip -sel clip < ~/.ssh/id_rsa.pub
 ```
-Video : [Opret SSH login on Github](https://youtu.be/HfTXHrWMGVY?t=219)
+Video : [Opret SSH login on Github - Test SSH-Key](https://youtu.be/HfTXHrWMGVY?t=245)
 
 ```bash
 # test SSH
