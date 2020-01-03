@@ -18,6 +18,11 @@
 
 [Thenewboston - Git](https://www.youtube.com/user/thenewboston/search?query=git)  
 * [GitHub Watch Star and Fork](https://www.youtube.com/watch?v=W7oR8-9H0gs)
+# ESP32 & ESP8266
+* [ACROBOTIC - IoT Projects w/ Arduino, ESP8266 & ESP32](https://www.youtube.com/watch?v=NFej0Jlwgxk&list=PLNFq0T6Z3JPsMWtVgmqPnpIu41LNMDPiA)
+* [ACROBOTIC - ESP8266 Tips & Tricks](https://www.youtube.com/watch?v=CMNuMOcvpFM&list=PLNFq0T6Z3JPsHwzvPQncip-kMIdWpnnip)
+* [ACROBOTIC - ESP8266 Storing Wi-Fi Settings In Flash Auto-Switch AP/Station Modes ](https://www.youtube.com/watch?v=lyoBWH92svk&t=1210s)
+* [ACROBOTIC - ESP8266 and Arduino Robotics | WHEEL-E Robot](https://www.youtube.com/watch?v=BpiPb-cQGts&list=PLNFq0T6Z3JPsjMJrq4A-9pAYYmJ1ybvXj)
 # JSON
 * [Learn JSON in 10 Minutes](https://www.youtube.com/watch?v=iiADhChRriM)  
 * [Arduino Tutorial - Outputting JSON over Serial](https://www.youtube.com/watch?v=z_rPvQhKTfY&t=71s)
