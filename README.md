@@ -54,18 +54,14 @@ sudo apt full-upgrade -y
 sudo apt autoremove -y
 
 # installer nogle hjælpe programmer
-sudo apt install -y git pinta geany* vlc putty python3-distutils
+sudo apt install -y git pinta geany* vlc putty python3-distutils xclip
 
 # opret mappe til projecter
 mkdir -p ~/Dokumenter/GitHub/
 mkdir -p ~/Dokumenter/FreeCad/
 mkdir -p ~/Dokumenter/ESP32/
-
-# clone reposetry
-cd ~/Dokumenter/GitHub/
-git clone https://github.com/sekt1953/ESP32-Seniorhus-2020-1.git
-cd ~
 ```
+
 [Klik her for at hente og installer Visual Studio Code](https://code.visualstudio.com/download)
 
 # PlatformIO
@@ -140,4 +136,43 @@ Tilføj nu denne linie, den angiver den hastighed, ved hvilken [bit transmittere
 
 ```
 monitor_speed=115200
+```
+# Github Setup
+[See Intro to Git & GitHub](https://www.youtube.com/watch?v=IHaTbJPdB-s)  
+* [How to Create a GitHub Account](https://www.youtube.com/watch?v=6U7_Om4zffM)  
+* [Create GitHub Repositories](https://youtu.be/IHaTbJPdB-s?t=527)  
+
+# Git Setup
+## Git Config
+[Git config - follow video](https://youtu.be/HfTXHrWMGVY?t=63)
+```bash
+git config --global user.name "Dit bruger navn på GitHub"
+git config --global user.email "Din GitHub email adresse"
+
+git config --global core.editor "code --wait"
+```
+## Setup Git SSH
+```bash
+# Check for SSH Key
+ls ~/.ssh
+# Creaate an SSH Key
+ssh-keygen -t rsa -b 4096 -C "Din GitHub email adresse"
+# Copy the SSH Key
+xclip -sel clip < ~/.ssh/id_rsa.pub
+```
+[Opret SSH login on Github - follow video](https://youtu.be/HfTXHrWMGVY?t=219)
+
+```bash
+# test SSH
+ssh -T git@github.com
+
+# Responce somthing like this is fine 
+# Hi sekt1953! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+## Clone reposetry
+```bash
+cd ~/Dokumenter/GitHub/
+git clone https://github.com/sekt1953/ESP32-Seniorhus-2020-1.git
+cd ~
 ```
