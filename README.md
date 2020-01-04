@@ -59,8 +59,9 @@ mkdir -p ~/Dokumenter/GitHub/
 mkdir -p ~/Dokumenter/FreeCad/
 mkdir -p ~/Dokumenter/ESP32/
 ```
-# Installation af Visual Studio Code (VSC), PlatformIO :
-
+# Installation af Visual Studio Code (VSC) & PlatformIO :
+## Visual Studio Code
+Klargør linux PlatformIO :
 ```bash
 # installer python util for PlatformIO
 sudo apt install -y python3-distutils
