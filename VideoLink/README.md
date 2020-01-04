@@ -50,4 +50,3 @@ ACROBOTIC
 * [How to boot Raspberry PI4 from USB](https://www.youtube.com/watch?v=FM9wuFLufyA)  
 * [Raspberry Pi 4 SD to USB SSD Boot](https://www.youtube.com/watch?v=2rglzPdsvYg)  
 * [Mobile Raspberry Pi with ANY iPad. No USB-C needed.](https://www.youtube.com/watch?v=YbvSS8MJm2s&t=167s)  
-* 

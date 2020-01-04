@@ -35,9 +35,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0Dw
 | SMD 220 Ohm | https://www.aliexpress.com/item/32847115923.html?spm=a2g0o.productlist.0.0.79b47e92Q9RMe2&algo_pvid=513a7157-4b4c-47b4-a368-329f278bac1f&algo_expid=513a7157-4b4c-47b4-a368-329f278bac1f-0&btsid=5dde7322-30b2-443f-abcf-61bfba64a9b9&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_53 |
 | Sokkel til Print | https://github.com/sekt1953/ESP32-Seniorhus-2020-1/blob/master/FreeCad/Printholder-001.stl |
 
-# Installation af Visual Studio Code (VSC), PlatformIO :
-Se denne video fra Andreas Spiess :
-* [#264 PlatformIO for Arduino, ESP8266, and ESP32 Tutorial](https://www.youtube.com/watch?v=0poh_2rBq7E&list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9&index=38)  
+# Klargør linux PC (Ubuntu 18.04 LTS) :
 
 For linux bruger åben terminal og indsæt linier en af gangen !!
 ```bash
@@ -54,31 +52,39 @@ sudo apt full-upgrade -y
 sudo apt autoremove -y
 
 # installer nogle hjælpe programmer
-sudo apt install -y git pinta geany* vlc putty python3-distutils xclip
+sudo apt install -y git xclip pinta geany* vlc putty python3-distutils
 
 # opret mappe til projecter
 mkdir -p ~/Dokumenter/GitHub/
 mkdir -p ~/Dokumenter/FreeCad/
 mkdir -p ~/Dokumenter/ESP32/
 ```
+# Installation af Visual Studio Code (VSC), PlatformIO :
+
+```bash
+# installer python util for PlatformIO
+sudo apt install -y python3-distutils
+```
+Video guide for installation af VSC & PlatformIO :
+* [#264 PlatformIO for Arduino, ESP8266, and ESP32 Tutorial](https://www.youtube.com/watch?v=0poh_2rBq7E&list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9&index=38)  
 
 [Klik her for at hente og installer Visual Studio Code](https://code.visualstudio.com/download)
 
-# PlatformIO :
-## Installer PlatformIO fra VSC :
+## PlatformIO :
+### Installer PlatformIO fra VSC :
 * Start VSC
 * Åben Extensions med [Ctrl]+[Shift]+X
 * Søg efter PlatformIO IDE 
 * Tryk install og vent indtil installationen er afsluttet. 
 * Genstart når det ønskes.
 
-## Tilpas default settings :
+### Tilpas default settings :
 [Klik for at se PlatformIO nyeste userguide](http://docs.platformio.org/en/latest/userguide/cmd_settings.html#projects-dir)  
 
 * Åben new terminal Platformio
   * Klik Platformio logo
   * Klik *New Terminal* under *Miscellaneous*
-* indtast nu følgende linie i Terminal vinduet:
+    * indtast nu følgende linie i Terminal vinduet:
 ```
 platformio settings get
 ```
