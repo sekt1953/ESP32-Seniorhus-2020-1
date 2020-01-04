@@ -19,6 +19,11 @@
 [Thenewboston - Git](https://www.youtube.com/user/thenewboston/search?query=git)  
 * [GitHub Watch Star and Fork](https://www.youtube.com/watch?v=W7oR8-9H0gs)
 # ESP32 & ESP8266
+Asali
+* [Asali - Arduino Course](https://www.youtube.com/watch?v=VaVYW8sAkzI&list=PL-3SnJmahyb6ufwOyIIK1S6847W2GfRPn)
+* [Asali - ESP32 Course](https://www.youtube.com/watch?v=Qxr1T_UGs2M&list=PL-3SnJmahyb5mQLq7RgG6HNIUMwXzgDy-)  
+
+ACROBOTIC  
 * [ACROBOTIC - IoT Projects w/ Arduino, ESP8266 & ESP32](https://www.youtube.com/watch?v=NFej0Jlwgxk&list=PLNFq0T6Z3JPsMWtVgmqPnpIu41LNMDPiA)
 * [ACROBOTIC - ESP8266 Tips & Tricks](https://www.youtube.com/watch?v=CMNuMOcvpFM&list=PLNFq0T6Z3JPsHwzvPQncip-kMIdWpnnip)
 * [ACROBOTIC - ESP8266 Storing Wi-Fi Settings In Flash Auto-Switch AP/Station Modes ](https://www.youtube.com/watch?v=lyoBWH92svk&t=1210s)
@@ -36,7 +41,10 @@
 * [Getting Started with Mozilla WebThings Part 2: Building an ESP8266 Temperature Sensor with Arduino](https://www.youtube.com/watch?v=papxaeII0vo)
 * [Taking Control Of Your Own Private Smart Home With Mozilla WebThings](https://www.youtube.com/watch?v=7qhKwezvlFA)
 * [Mozilla IoT Framework - Kathy Giori (Mozilla)](https://www.youtube.com/watch?v=mWCa6byiPco&t=6s)
-* [Easy Home Automation With Mozilla IoT & Raspberry Pi - Part 1](https://www.youtube.com/watch?v=maSdWQHSzCg&t=9s)
+* [Easy Home Automation With Mozilla IoT & Raspberry Pi - Part 1](https://www.youtube.com/watch?v=maSdWQHSzCg&t=9s)  
+
+[Asali](https://www.youtube.com/channel/UCm5XVCrhSgQQQWqWWUlFrsQ)
+* [Raspberry Pi Course](https://www.youtube.com/watch?v=sM5mPLCw_cg&list=PL-3SnJmahyb4-uBaZZAau6sNNJmZ2eFVf)
 
 ## USB-Disk boot
 * [How to boot Raspberry PI4 from USB](https://www.youtube.com/watch?v=FM9wuFLufyA)  
