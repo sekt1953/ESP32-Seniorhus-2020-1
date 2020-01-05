@@ -44,7 +44,8 @@ mkdir -p ~/.local/bin
 PATH="$PATH:$HOME/bin"
 
 # giv default bruger adgang til serial port
-sudo usermod -a -G dialout $USER
+sudo usermod -a -G dialout $USER  
+
 
 # opdater din linux
 sudo apt update
