@@ -41,6 +41,7 @@ For linux bruger åben terminal og indsæt linier en af gangen !!
 ```bash
 # opret directory til dine bin filer
 mkdir -p ~/.local/bin
+mkdir -p ~/.local/share/icons
 PATH="$PATH:$HOME/bin"
 
 # giv default bruger adgang til serial port
