@@ -34,6 +34,17 @@ https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0Dw
 | breakaway Straight female header 40 pins | https://www.aliexpress.com/item/2046245030.html?spm=a2g0s.9042311.0.0.27424c4dcyutn6 |
 | SMD 220 Ohm | https://www.aliexpress.com/item/32847115923.html?spm=a2g0o.productlist.0.0.79b47e92Q9RMe2&algo_pvid=513a7157-4b4c-47b4-a368-329f278bac1f&algo_expid=513a7157-4b4c-47b4-a368-329f278bac1f-0&btsid=5dde7322-30b2-443f-abcf-61bfba64a9b9&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_53 |
 | Sokkel til Print | https://github.com/sekt1953/ESP32-Seniorhus-2020-1/blob/master/FreeCad/Printholder-001.stl |
+## Andre Matrialer :
+| Billed  | Navn | Link |
+| --- | ---- |--- |
+| ![9G Micro Mini Servos](https://ae01.alicdn.com/kf/U18f5e855e60246479c0e94f3a323757dp.jpg_50x50.jpg) | 9G Micro Mini Servos | https://www.aliexpress.com/item/5-10pcs-9G-Micro-Mini-Servos-Horns-better-than-Servo-SG90-for-RC-250-450-Helicoper/32966156683.html?spm=a2g0s.9042311.0.0.28fc4c4dvNjb2T |
+| ![Reprap Stepper Driver A4988](https://ae01.alicdn.com/kf/U9e68994599994430a7106edc87bd8f484.jpg_50x50.jpg) | Reprap Stepper Driver A4988 | https://www.aliexpress.com/item/5pcs-lot-Reprap-Stepper-Driver-A4988-Stepper-Motor-Driver-Module-for-3D-printer-free-shipping/32805486581.html?spm=a2g0s.9042311.0.0.28fc4c4dvNjb2T |
+| ![4-Phase 28YBJ-48 DC Gear Step](https://ae01.alicdn.com/kf/U42c932fd158e4beca7e6bd1643ae7f7d6.jpg_50x50.jpg) | 4-Phase 28YBJ-48 DC Gear Step | https://www.aliexpress.com/item/5V-4-Phase-28YBJ-48-DC-Gear-Step-1PCS-Stepper-Motor-1PCS-ULN2003-Driver-Board-ULN2003/32806795260.html?spm=a2g0s.9042311.0.0.28fc4c4dvNjb2T | 
+| ![ESP32 ESP32-CAM WiFi](https://ae01.alicdn.com/kf/U625ea732b7cd489395329be0054be262F.jpg_50x50.jpg) | ESP32 ESP32-CAM WiFi | https://www.aliexpress.com/item/ESP32-ESP32-CAM-WiFi-Bluetooth-Module-Camera-Module-Development-Board-with-Camera-Module-OV2640-2MP-Genuine/32958807758.html?spm=a2g0s.9042311.0.0.28fc4c4dvNjb2T | 
+| ![FQP27P06 TO-220](https://ae01.alicdn.com/kf/Ue09934e05d1c48d385292ee1408f5ea6T.jpg_50x50.jpg) | FQP27P06 TO-220 | https://www.aliexpress.com/item/Free-shipping-10pcs-lot-FQP27P06-TO-220-new-original/32686752915.html?spm=a2g0s.9042311.0.0.27424c4dKaAjth | 
+| ![Dupont Jumper Wire Cable Housing](https://ae01.alicdn.com/kf/U014c5d8be13d4190b7ccbbca497be49cn.jpg_50x50.jpg) | Dupont Jumper Wire Cable Housing | https://www.aliexpress.com/item/100PCS-2-54mm1P-2P-3P-4P-5P-6P-8P-9P-10P-Plastic-Dupont-Jumper-Wire-Cable/32568360661.html?spm=a2g0s.9042311.0.0.27424c4dDJsSAe | 
+|  |  |  | 
+|  |  |  | 
 
 # Klargør linux PC (Ubuntu 18.04 LTS) :
 
@@ -46,7 +57,6 @@ PATH="$PATH:$HOME/bin"
 
 # giv default bruger adgang til serial port
 sudo usermod -a -G dialout $USER  
-
 
 # opdater din linux
 sudo apt update
