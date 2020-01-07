@@ -16,7 +16,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0Dw
 ![PCB Images](/Fritzing/ESP32_PCB_A_002_b_bb.png)
 
 ## ESP 32 Pin Layout :
-![ESP32 PinLayout](/Images/ESP32S-HiLetgo_690x399.png)  
+![ESP32 PinLayout](/Images/ESP32S-HiLetgo_1377x724.png)  
 [ESP32S-HiLetgo Dev Boad with Pinout Template](https://forum.fritzing.org/t/esp32s-hiletgo-dev-boad-with-pinout-template/5357)
 
 ## Matrialer til CPU kort :
