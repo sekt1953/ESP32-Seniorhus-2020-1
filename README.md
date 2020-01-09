@@ -120,10 +120,20 @@ platformio settings get
 platformio settings set projects_dir ~/Dokumenter/ESP32
 ```
 # Start et nyt Project i PlatformIO - New Project :
-Start et nyt ptoject med disse standard værdier og erstat ? med dit project navn (ESP32_Blink)  
-![PlatformIO_Project_Wizard](Images/PlatformIO_Project_Wizard.png)  
-Tryk på [Finish] når alle felter er udfyldt.
+## Open PlatformIO :
+![PlatformIO_Nyt_Project](Images/PlatformIO_Nyt_Project.png)  
 
+  1. Klik PlatformIO Icon  
+  2. Klik Open  
+  3. Klik New Project   
+## Indtast Parameter for nyt project:
+![PlatformIO_Project_Wizard](Images/PlatformIO_Project_Wizard.png)  
+
+  4. Name: ESP32_Blink  
+  5. Board: Espressif ESP Dev Module  
+  6. Framework: Arduino  
+  7. Location: Use default location  
+  8. Tryk på [Finish] når alle felter er udfyldt.  
 ## Åben og juster platformio.ini tilhørende dit project :
 Når du åbner filen vil den se ud som denne :
 ```
