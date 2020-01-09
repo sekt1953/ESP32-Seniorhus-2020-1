@@ -134,29 +134,14 @@ platformio settings set projects_dir ~/Dokumenter/ESP32
   6. Framework: Arduino  
   7. Location: Use default location  
   8. Tryk på [Finish] når alle felter er udfyldt.  
-## Åben og juster platformio.ini tilhørende dit project :
-Når du åbner filen vil den se ud som denne :
-```
-;PlatformIO Project Configuration File
-;
-;   Build options: build flags, source filter
-;   Upload options: custom upload port, speed and extra flags
-;   Library options: dependencies, extra library storages
-;   Advanced options: extra scripting
-;
-; Please visit documentation for the other options and examples
-; https://docs.platformio.org/page/projectconf.html
+## Åben og juster *platformio.ini* tilhørende dit project :
+![ESP32_Blink_ini](Images/ESP32_Blink_ini.png)  
 
-[env:esp32dev]
-platform = espressif32
-board = esp32dev
-framework = arduino
-```
-Tilføj nu denne linie, den angiver den hastighed, ved hvilken [bit transmitteres](https://www.mathworks.com/help/matlab/matlab_external/baudrate.html), via vores serial port.
+  9. Åben filhontering  
+  10. Åben Project ESP32_Blink  
+  11. Åben filen platformio.ini  
+  12. tilføj linien "monitor_speed=115200", den vil angiver den hastighed, der sendes og modtages data via vores serial port.  
 
-```bash
-monitor_speed=115200
-```
 # Setup Github :
 [See Intro to Git & GitHub](https://www.youtube.com/watch?v=IHaTbJPdB-s)  
 * [How to Create a GitHub Account](https://www.youtube.com/watch?v=6U7_Om4zffM)  
