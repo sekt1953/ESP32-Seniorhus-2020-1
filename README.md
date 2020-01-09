@@ -130,7 +130,7 @@ platformio settings set projects_dir ~/Dokumenter/ESP32
 ![PlatformIO_Project_Wizard](Images/PlatformIO_Project_Wizard.png)  
 
   4. Name: ESP32_Blink  
-  5. Board: Espressif ESP Dev Module  
+  5. Board: Espressif ESP32 Dev Module  
   6. Framework: Arduino  
   7. Location: Use default location  
   8. Tryk på [Finish] når alle felter er udfyldt.  
