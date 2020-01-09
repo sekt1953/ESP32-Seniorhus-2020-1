@@ -42,10 +42,10 @@ https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0Dw
 | ![4-Phase 28YBJ-48 DC Gear Step](https://ae01.alicdn.com/kf/U42c932fd158e4beca7e6bd1643ae7f7d6.jpg_50x50.jpg) | 4-Phase 28YBJ-48 DC Gear Step | https://www.aliexpress.com/item/5V-4-Phase-28YBJ-48-DC-Gear-Step-1PCS-Stepper-Motor-1PCS-ULN2003-Driver-Board-ULN2003/32806795260.html?spm=a2g0s.9042311.0.0.28fc4c4dvNjb2T | 
 | ![ESP32 ESP32-CAM WiFi](https://ae01.alicdn.com/kf/U625ea732b7cd489395329be0054be262F.jpg_50x50.jpg) | ESP32 ESP32-CAM WiFi | https://www.aliexpress.com/item/ESP32-ESP32-CAM-WiFi-Bluetooth-Module-Camera-Module-Development-Board-with-Camera-Module-OV2640-2MP-Genuine/32958807758.html?spm=a2g0s.9042311.0.0.28fc4c4dvNjb2T | 
 | ![FQP27P06 TO-220](https://ae01.alicdn.com/kf/Ue09934e05d1c48d385292ee1408f5ea6T.jpg_50x50.jpg) | FQP27P06 TO-220 | https://www.aliexpress.com/item/Free-shipping-10pcs-lot-FQP27P06-TO-220-new-original/32686752915.html?spm=a2g0s.9042311.0.0.27424c4dKaAjth | 
-| ![Dupont Jumper Wire Cable Housing](https://ae01.alicdn.com/kf/U014c5d8be13d4190b7ccbbca497be49cn.jpg_50x50.jpg) | Dupont Jumper Wire Cable Housing | https://www.aliexpress.com/item/100PCS-2-54mm1P-2P-3P-4P-5P-6P-8P-9P-10P-Plastic-Dupont-Jumper-Wire-Cable/32568360661.html?spm=a2g0s.9042311.0.0.27424c4dDJsSAe | 
+| ![Dupont Jumper Wire Cable Housing](https://ae01.alicdn.com/kf/U014c5d8be13d4190b7ccbbca497be49cn.jpg_50x50.jpg) | Dupont Jumper Wire Cable Housing | https://www.aliexpress.com/item/100PCS-2-54mm1P-2P-3P-4P-5P-6P-8P-9P-10P-Plastic-Dupont-Jumper-Wire-Cable/32568360661.html?spm=a2g0s.9042311.0.0.27424c4dDJsSAe |   
+<hr/>  
 
 # Klargør linux PC (Ubuntu 18.04 LTS) :
-
 For linux bruger åben terminal og indsæt linier en af gangen !!
 ```bash
 # opret directory til dine bin filer
@@ -69,6 +69,8 @@ mkdir -p ~/Dokumenter/GitHub/
 mkdir -p ~/Dokumenter/FreeCad/
 mkdir -p ~/Dokumenter/ESP32/
 ```
+<hr/>  
+
 # Installation af Visual Studio Code (VSC) & PlatformIO :
 ## Visual Studio Code
 Klargør linux PlatformIO :
@@ -134,6 +136,8 @@ platformio settings set projects_dir ~/Dokumenter/ESP32
   12. tilføj linien "monitor_speed=115200", den vil angiver den hastighed, der sendes og modtages data via vores serial port.  
   13. Gem nu ændringer med [CTRL]+S
 
+<hr/>  
+
 # Setup Github :
 [See Intro to Git & GitHub](https://www.youtube.com/watch?v=IHaTbJPdB-s)  
 * [How to Create a GitHub Account](https://www.youtube.com/watch?v=6U7_Om4zffM)  
@@ -176,6 +180,8 @@ ssh -T git@github.com
 # Responce somthing like this is fine 
 # Hi sekt1953! You've successfully authenticated, but GitHub does not provide shell access.
 ```
+<hr/>  
+
 # GitHub Reposetry :
 ## Fork :
 Video : [Git & GitHub Tutorial for Beginners #12 - Forking](https://www.youtube.com/watch?v=HbSjyU2vf6Y)
