@@ -108,7 +108,8 @@ platformio settings get
 platformio settings set projects_dir ~/Dokumenter/ESP32
 ```
   5. Se ændringen her.  
-<hr/>
+<hr/>  
+
 # Start et nyt Project i PlatformIO - New Project :
 ## Open PlatformIO :
 ![PlatformIO_Nyt_Project](Images/PlatformIO_Nyt_Project.png)  
