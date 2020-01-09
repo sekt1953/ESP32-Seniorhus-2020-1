@@ -92,33 +92,23 @@ Video guide for installation af VSC & PlatformIO :
 ### Tilpas default settings :
 [Klik for at se PlatformIO nyeste userguide](http://docs.platformio.org/en/latest/userguide/cmd_settings.html#projects-dir)  
 
-* Åben new terminal Platformio
-  * Klik Platformio logo
-  * Klik *New Terminal* under *Miscellaneous*
-    * indtast nu følgende linie i Terminal vinduet:
+![PlatformIO_Set_Default](Images/PlatformIO_Set_Default.png)  
+
+  1. Klik på Platformio logo  
+  2. Klik *New Terminal* under *Miscellaneous*
+  3. indtast nu følgende linie i Terminal vinduet: 
 ```
 platformio settings get
 ```
-* vil give et output som dette:
+#### Ændre nu **projects_dir** til **~/Dokumenter/ESP32**
+![PlatformIO_Set_Default_02](Images/PlatformIO_Set_Default_02.png)  
 
-| Name | Current value [Default] | Description |
-|-------------------------- |------------------------ |------------ |
-| auto_update_libraries     | No | Automatically update libraries (Yes/No) |
-| auto_update_platforms     | No | Automatically update platforms (Yes/No) |
-| check_libraries_interval  | 7  | Check for the library updates interval (days) |
-| check_platformio_interval | 3  | Check for the new PlatformIO interval (days) |
-| check_platforms_interval  | 7  | Check for the platform updates interval (days) |
-| enable_cache              | Yes | Enable caching for API requests and Library Manager |
-| enable_telemetry          | Yes | Telemetry service <http://bit.ly/pio-telemetry> (Yes/No) |
-| force_verbose             | No | Force verbose output when processing environments |
-| projects_dir              | /home/sekt/Documents/PlatformIO/Projects | Default location for PlatformIO projects (PIO Home) |
-| strict_ssl                | No | Strict SSL for PlatformIO Services |
-
-* Ændre nu **projects_dir** til **~/Dokumenter/ESP32**
-  * indtast nu følgende linie i terminal vinduet:
+  4. indtast nu følgende linie i terminal vinduet:
 ```
 platformio settings set projects_dir ~/Dokumenter/ESP32
 ```
+  5. Se ændringen her.
+
 # Start et nyt Project i PlatformIO - New Project :
 ## Open PlatformIO :
 ![PlatformIO_Nyt_Project](Images/PlatformIO_Nyt_Project.png)  
