@@ -141,6 +141,7 @@ platformio settings set projects_dir ~/Dokumenter/ESP32
   10. Åben Project ESP32_Blink  
   11. Åben filen platformio.ini  
   12. tilføj linien "monitor_speed=115200", den vil angiver den hastighed, der sendes og modtages data via vores serial port.  
+  13. Gem nu ændringer med [CTRL]+S
 
 # Setup Github :
 [See Intro to Git & GitHub](https://www.youtube.com/watch?v=IHaTbJPdB-s)  
