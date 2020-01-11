@@ -17,7 +17,21 @@ https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0Dw
 
 ## ESP 32 Pin Layout :
 ![ESP32 PinLayout](/Images/ESP32S-HiLetgo_1377x724.png)  
-[ESP32S-HiLetgo Dev Boad with Pinout Template](https://forum.fritzing.org/t/esp32s-hiletgo-dev-boad-with-pinout-template/5357)
+[ESP32S-HiLetgo Dev Boad with Pinout Template](https://forum.fritzing.org/t/esp32s-hiletgo-dev-boad-with-pinout-template/5357)  
+
+### Espressif ESP32 :  
+[ESP32 Datasheet PDF](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)  
+[ESP32-DevKitC V4 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/hw-reference/get-started-devkitc.html)
+### ESP32-DevKitC :
+[ESP32-DevKitC PinOut](https://www.cloudynights.com/uploads/gallery/album_9650/gallery_16487_9650_1843894.png)  
+[ESP32-DevKitC Diagram](http://esp32.net/images/Ai-Thinker/NodeMCU-32S/Ai-Thinker_NodeMCU-32S_DiagramSchematic.png)  
+[ESP32_Function_Block_Diagram](http://esp32.net/images/_resources/ESP32_Function_Block_Diagram.svg)  
+
+### ESP32-CAM:
+[ESP32-CAM PinOut](https://circuitdigest.com/sites/default/files/inlineimages/ESP32-CAM-Module-PinOut.jpg)  
+[ESP32-CAM Diagram](https://preview.redd.it/yv050peu22p21.png?width=1222&format=png&auto=webp&s=6bda5db94ed155bb428e1bb02e1a362c447fa9eb)  
+[ESP32-CAM Flashing](https://www.14core.com/wp-content/uploads/2019/07/esp32-cam-flashing-guide-wiring-schematics-diagram-768x255.jpg)
+[ESP32-S CAM in Face Detection and Recognition with ESP-IDF / ESP-WHO Library](https://www.14core.com/esp32-s-cam-in-face-detection-and-recognition-with-esp-who-library/)
 
 ## Matrialer til CPU kort :
 | Navn | Link |
