@@ -98,7 +98,7 @@ Video guide for installation af VSC & PlatformIO :
 [Klik her for at hente og installer Visual Studio Code](https://code.visualstudio.com/download)
 
 ![VSC-00-Download](/Images/VSC-00-Download.png)  
-
+*
 ![VSC-01-open with](/Images/VSC-01-open&#32;with.png)  
 *
 ![](/Images/VSC-02-Install.png)  
