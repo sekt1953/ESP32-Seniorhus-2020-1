@@ -101,9 +101,13 @@ Video guide for installation af VSC & PlatformIO :
 *
 ![VSC-01-open with](/Images/VSC-01-open&#32;with.png)  
 *
-![](/Images/VSC-02-Install.png)  
-* 
+![VSC-02-Install](/Images/VSC-02-Install.png)  
+*  
 ![VSC-03-install&#32;password](/Images/VSC-03-install&#32;password.png)  
+*  
+![VSC-04a-Favorit](/Images/VSC-04a-Favorit.png)  
+*  
+![VSC-04b-Add-Favorit](/Images/VSC-04b-Add-Favorit.png)
 *
 ![VSC-05-PlatformIO-install](/Images/VSC-05-PlatformIO-install.png)  
 *
