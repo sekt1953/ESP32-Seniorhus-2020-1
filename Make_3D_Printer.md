@@ -1,10 +1,28 @@
 # Make 3D Printer
 ## Videoer
 ### Printer Controller
-* [32 bit 3D printing - What it means and when you need it](https://www.youtube.com/watch?v=729Xglg6hec&list=PLGqRUdq5ULsO1KoE7KAj1ehEhBZoyxdPO&index=134)  
-* [Cheap 32-bit 3D Printer Controller!](https://www.youtube.com/watch?v=HOryknQnOd4&t=638s)  
-* [SKR v1.3 Mainboard Install - TMC2208 - Chris's Basement](https://www.youtube.com/watch?v=duNHOPlh2Pg)  
-* [SKR V1.3 Comprehensive guide - 32bit 3D printing for $20](https://www.youtube.com/watch?v=GNGN2iSQ5j4&list=PLGqRUdq5ULsO1KoE7KAj1ehEhBZoyxdPO&index=135)  
+* Edward Braiman
+  * [BTT SKR V1.4 Instruction Manual.pdf](https://github.com/bigtreetech/BIGTREETECH-SKR-V1.3/blob/master/BTT%20SKR%20V1.4/BTT%20SKR%20V1.4%20Instruction%20Manual.pdf)
+  * [SKR 1.4 Tutorials](https://www.youtube.com/watch?v=3km65eFssSs&list=PLP-VDZmS6bFo6qyPS8MyBFKqepQHpjCEB)  
+    * [SKR 1.4 - Basics](https://www.youtube.com/watch?v=3km65eFssSs&list=PLP-VDZmS6bFo6qyPS8MyBFKqepQHpjCEB&index=2&t=0s)  
+    * [SKR 1.4 - Full graphic Smart Controller](https://www.youtube.com/watch?v=gT8VUFAHxdg&list=PLP-VDZmS6bFo6qyPS8MyBFKqepQHpjCEB&index=3&t=0s)  
+    * [SKR 1.4 - Basic Switch Endstop](https://www.youtube.com/watch?v=LF0g6UnOp0Q&list=PLP-VDZmS6bFo6qyPS8MyBFKqepQHpjCEB&index=4&t=0s)  
+    * [SKR 1.4 - Optical Endstop](https://www.youtube.com/watch?v=__HuHR7Gzos&list=PLP-VDZmS6bFo6qyPS8MyBFKqepQHpjCEB&index=5&t=0s)  
+    * [SKR 1.4 - A4988/DRV8825 configuration](https://www.youtube.com/watch?v=u6pGsE7BZgg&list=PLP-VDZmS6bFo6qyPS8MyBFKqepQHpjCEB&index=6&t=0s)  
+    * [SKR 1.4 - TMC2130 SPI](https://www.youtube.com/watch?v=C19krXiVINQ&list=PLP-VDZmS6bFo6qyPS8MyBFKqepQHpjCEB&index=7&t=0s)  
+    * [SKR 1.4 - TFT24 Firmware Update (2 of 3)](https://www.youtube.com/watch?v=op16XbvuYWk&list=PLP-VDZmS6bFo6qyPS8MyBFKqepQHpjCEB&index=9&t=0s)
+    * [SKR 1.4 - TMC2208 UART v3.0](https://www.youtube.com/watch?v=hRpWtx3HCGM&list=PLP-VDZmS6bFo6qyPS8MyBFKqepQHpjCEB&index=11&t=0s)  
+  * [SKR 1.3 Tutorials](https://www.youtube.com/watch?v=ubneO0Wc55s&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM)    
+*  Teaching Tech  
+   
+   * [32 bit 3D printing - What it means and when you need it](https://www.youtube.com/watch?v=729Xglg6hec&list=PLGqRUdq5ULsO1KoE7KAj1ehEhBZoyxdPO&index=134)  
+   * [SKR V1.3 Comprehensive guide - 32bit 3D printing for $20](https://www.youtube.com/watch?v=GNGN2iSQ5j4&list=PLGqRUdq5ULsO1KoE7KAj1ehEhBZoyxdPO&index=135)  
+
+*  Tech2C  
+   * [Cheap 32-bit 3D Printer Controller!](https://www.youtube.com/watch?v=HOryknQnOd4&t=638s)  
+
+* Chris's Basement
+  * [SKR v1.3 Mainboard Install - TMC2208 - Chris's Basement](https://www.youtube.com/watch?v=duNHOPlh2Pg)  
 
 ### Stepper Drivers
 * Teaching Tech:
