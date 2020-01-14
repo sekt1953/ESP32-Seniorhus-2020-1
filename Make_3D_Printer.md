@@ -1,7 +1,24 @@
 # Make 3D Printer
 ## Videoer
 ### Printer Controller
+* [MarlinFirmware](https://github.com/MarlinFirmware/Marlin)   
+  * [Installing Marlin (VSCode)](http://marlinfw.org/docs/basics/install_platformio_vscode.html)  
+
 * Edward Braiman
+  * [SKR 1.3 Tutorials](https://www.youtube.com/watch?v=ubneO0Wc55s&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM)    
+    * [SKR 1.3 - Servo](https://www.youtube.com/watch?v=kBs81TuX8jg&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM&index=16)  
+    * [SKR 1.3 - BLTouch](https://www.youtube.com/watch?v=5cSzFCv7K4Q&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM&index=3)  
+    * [SKR 1.3 - TMC2130 SPI v3.0](https://www.youtube.com/watch?v=jV9C2yomv0s&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM&index=5)  
+    * [SKR 1.3 - Dual Z steppers with Marlin firmware (Part one)](https://www.youtube.com/watch?v=pCQ4nQDBMGE&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM&index=8)  
+    * [SKR 1.3 - Dual Z steppers with Stepper Extender (Part two)](https://www.youtube.com/watch?v=p6bAMM-XQL0&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM&index=13)  
+    * [SKR 1.3 - Dual Z steppers with Parallel Module (Part Three)](https://www.youtube.com/watch?v=yrSSps4ZWQk&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM&index=11)  
+    * [SKR 1.3 - TFT35 touch screen display](https://www.youtube.com/watch?v=-_nmM-8dgMg&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM&index=4)  
+    * [SKR 1.3 - TFT35 V3 RepRap Discount Full Graphic Smart Controller Mode (1 of 3)](https://www.youtube.com/watch?v=45NMUl7GnDM&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM&index=17)  
+    * [SKR 1.3 - TFT35 V3 Firmware upgrade (2 of 3)](https://www.youtube.com/watch?v=_Gk1er1huds&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM&index=20)  
+    * [SKR 1.3 - TFT35 V3 Touch screen Configuration (3 of 3)](https://www.youtube.com/watch?v=Xwf0tQ3xj3s&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM&index=19)  
+    * []()  
+    * []()  
+    * 
   * [BTT SKR V1.4 Instruction Manual.pdf](https://github.com/bigtreetech/BIGTREETECH-SKR-V1.3/blob/master/BTT%20SKR%20V1.4/BTT%20SKR%20V1.4%20Instruction%20Manual.pdf)
   * [SKR 1.4 Tutorials](https://www.youtube.com/watch?v=3km65eFssSs&list=PLP-VDZmS6bFo6qyPS8MyBFKqepQHpjCEB)  
     * [SKR 1.4 - Basics](https://www.youtube.com/watch?v=3km65eFssSs&list=PLP-VDZmS6bFo6qyPS8MyBFKqepQHpjCEB&index=2&t=0s)  
@@ -12,7 +29,6 @@
     * [SKR 1.4 - TMC2130 SPI](https://www.youtube.com/watch?v=C19krXiVINQ&list=PLP-VDZmS6bFo6qyPS8MyBFKqepQHpjCEB&index=7&t=0s)  
     * [SKR 1.4 - TFT24 Firmware Update (2 of 3)](https://www.youtube.com/watch?v=op16XbvuYWk&list=PLP-VDZmS6bFo6qyPS8MyBFKqepQHpjCEB&index=9&t=0s)
     * [SKR 1.4 - TMC2208 UART v3.0](https://www.youtube.com/watch?v=hRpWtx3HCGM&list=PLP-VDZmS6bFo6qyPS8MyBFKqepQHpjCEB&index=11&t=0s)  
-  * [SKR 1.3 Tutorials](https://www.youtube.com/watch?v=ubneO0Wc55s&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM)    
 *  Teaching Tech  
    
    * [32 bit 3D printing - What it means and when you need it](https://www.youtube.com/watch?v=729Xglg6hec&list=PLGqRUdq5ULsO1KoE7KAj1ehEhBZoyxdPO&index=134)  
