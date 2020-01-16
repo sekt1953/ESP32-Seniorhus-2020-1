@@ -76,3 +76,5 @@
 ### Extruder
 *  Thomas Sanladerer  
    * [E3D’s end-all extruder: The Hemera! (Full Review / “formerly known as Hermes”)](https://www.youtube.com/watch?v=XOqOd10e7RE)  
+* GEEETECH  
+  * [2-in-1out hotend](https://www.geeetech.com/2in1out-hotend-p-934.html)
