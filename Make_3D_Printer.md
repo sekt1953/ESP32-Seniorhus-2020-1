@@ -62,6 +62,10 @@
 *  Teaching Tech
    * [Migrating to Marlin 2.0 guide - Setup and troubleshooting
 ](https://www.youtube.com/watch?v=_IafavTl1fA)
+  * Ruiraptor  
+    * [MARLIN DISPLAY Menus & Settings (3D Printers) - What Do They Mean?](https://www.youtube.com/watch?v=8mdIYlbM6CM)  
+    * [3D Printers - STEPS & E-STEPS - How to calibrate Step-by-Step](https://www.youtube.com/watch?v=ZfqeTzc3NpM)  
+    * [Setting UP Your PRINT AREA (3D Printer) - What You're Doing Wrong!](https://www.youtube.com/watch?v=NiyU1cTTYlM)  
 
 ### Core XY Printer design.
 *  Tech2C  
