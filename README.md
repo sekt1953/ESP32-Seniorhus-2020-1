@@ -216,6 +216,11 @@ ssh -T git@github.com
 # Responce somthing like this is fine 
 # Hi sekt1953! You've successfully authenticated, but GitHub does not provide shell access.
 ```
+## Multiple SSH Keys
+* [Multiple SSH Keys settings for different github account](https://gist.github.com/jexchan/2351996)  
+* [How to manage multiple SSH key pairs](https://www.redhat.com/sysadmin/manage-multiple-ssh-key-pairs)  
+* [How can multiple private keys be used with ssh?](https://askubuntu.com/questions/1962/how-can-multiple-private-keys-be-used-with-ssh)  
+
 <hr/>  
 
 # GitHub Reposetry :
