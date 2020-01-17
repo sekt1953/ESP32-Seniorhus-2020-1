@@ -3,6 +3,8 @@
 ### Printer Controller
 * [MarlinFirmware](https://github.com/MarlinFirmware/Marlin)   
   * [Installing Marlin (VSCode)](http://marlinfw.org/docs/basics/install_platformio_vscode.html)  
+* BIGTREETECH  
+  * [BTT SKR V1.4 BOARD: The most cost-effective 32-bit 3D printer motherboard!](https://www.youtube.com/watch?v=OAk4hoybA-0)  
 * Edward Braiman
   * [SKR 1.3 Tutorials](https://www.youtube.com/watch?v=ubneO0Wc55s&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM)    
     * [SKR 1.3 - Servo](https://www.youtube.com/watch?v=kBs81TuX8jg&list=PLP-VDZmS6bFq1Rf8ZrxlWJZiC2pmPgykM&index=16)  
@@ -40,7 +42,10 @@
    * [Cheap 32-bit 3D Printer Controller!](https://www.youtube.com/watch?v=HOryknQnOd4&t=638s)  
 * Chris's Basement
   * [SKR v1.3 Mainboard Install - TMC2208 - Chris's Basement](https://www.youtube.com/watch?v=duNHOPlh2Pg)  
-
+### Display
+* 3D MakeIt
+  * [Playlist](https://www.youtube.com/channel/UCwS32BE4fJhfXudnksiIQgg/playlists)  
+  * [BigTreeTech Screens TFT24 V1.1 and TFT35 V3.0 Touch Screen Display compatible 12864LCD](https://www.youtube.com/watch?v=rexqrW6PbnQ)
 ### Stepper Drivers
 * Teaching Tech:
   * [TMC2209 and TMC 5160: Guide for MKS Gen L and SKR V1.3](https://www.youtube.com/watch?v=dOJbSrWVu_Q&list=PLGqRUdq5ULsO1KoE7KAj1ehEhBZoyxdPO&index=139)  
