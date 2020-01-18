@@ -281,7 +281,7 @@ $ git config user.name "user2"
 $ git config user.email "user2@domain2.com" 
 ```
 ### Move public keys respective github accounts
-  * See Copy an SSH Key
+  * [See copy an SSH Key](https://github.com/sekt1953/ESP32-Seniorhus-2020-1#setup-git-ssh-)  
 
 <hr/>  
 
