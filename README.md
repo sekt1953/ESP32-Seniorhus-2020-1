@@ -260,13 +260,13 @@ Then added
 #MyGithub1 account
 Host github.com-MyGithub1
 	HostName github.com
-	User git
+	User git1
 	IdentityFile ~/.ssh/id_rsa_MyGithub1
 
 #MyGithub2 account
 Host github.com-MyGithub2
 	HostName github.com
-	User git
+	User git2
 	IdentityFile ~/.ssh/id_rsa_MyGithub2
 ```
 * NOTE!
