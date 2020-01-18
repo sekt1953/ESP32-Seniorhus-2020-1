@@ -269,6 +269,33 @@ Host github.com-MyGithub2
 	User git
 	IdentityFile ~/.ssh/id_rsa_MyGithub2
 ```
+* NOTE!
+  * *Host*    
+            Restricts the following declarations (up to the next Host or Match keyword) to be only for those hosts that match one of the pat‐
+             terns given after the keyword.  If more than one pattern is provided, they should be separated by whitespace.  A single ‘*’ as a
+             pattern can be used to provide global defaults for all hosts.  The host is usually the hostname argument given on the command
+             line (see the CanonicalizeHostname keyword for exceptions).
+  * *HostName*  
+             Specifies the real host name to log into.  This can be used to specify nicknames or abbreviations for hosts.  Arguments to
+             HostName accept the tokens described in the TOKENS section.  Numeric IP addresses are also permitted (both on the command line
+             and in HostName specifications).  The default is the name given on the command line.
+  * *User*  
+             Specifies the user to log in as.  This can be useful when a different user name is used on different machines.  This saves the
+             trouble of having to remember to give the user name on the command line.  
+  * *IdentityFile*  
+             Specifies a file from which the user's DSA, ECDSA, Ed25519 or RSA authentication identity is read.  The default is ~/.ssh/id_dsa,
+             ~/.ssh/id_ecdsa, ~/.ssh/id_ed25519 and ~/.ssh/id_rsa.  Additionally, any identities represented by the authentication agent will
+             be used for authentication unless IdentitiesOnly is set.  If no certificates have been explicitly specified by CertificateFile,
+             ssh(1) will try to load certificate information from the filename obtained by appending -cert.pub to the path of a specified
+             IdentityFile.  
+             Arguments to IdentityFile may use the tilde syntax to refer to a user's home directory or the tokens described in the TOKENS sec‐
+             tion.  
+             It is possible to have multiple identity files specified in configuration files; all these identities will be tried in sequence.
+             Multiple IdentityFile directives will add to the list of identities tried (this behaviour differs from that of other configura‐
+             tion directives).  
+             IdentityFile may be used in conjunction with IdentitiesOnly to select which identities in an agent are offered during authentica‐
+             tion.  IdentityFile may also be used in conjunction with CertificateFile in order to provide any certificate also needed for
+             authentication with the identity.
 ### Modify your Git config
 for MyGithub1
 ```
