@@ -57,6 +57,8 @@ https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0Dw
 | ![ESP32 ESP32-CAM WiFi](https://ae01.alicdn.com/kf/U625ea732b7cd489395329be0054be262F.jpg_50x50.jpg) | ESP32 ESP32-CAM WiFi | https://www.aliexpress.com/item/ESP32-ESP32-CAM-WiFi-Bluetooth-Module-Camera-Module-Development-Board-with-Camera-Module-OV2640-2MP-Genuine/32958807758.html?spm=a2g0s.9042311.0.0.28fc4c4dvNjb2T | 
 | ![FQP27P06 TO-220](https://ae01.alicdn.com/kf/Ue09934e05d1c48d385292ee1408f5ea6T.jpg_50x50.jpg) | FQP27P06 TO-220 | https://www.aliexpress.com/item/Free-shipping-10pcs-lot-FQP27P06-TO-220-new-original/32686752915.html?spm=a2g0s.9042311.0.0.27424c4dKaAjth | 
 | ![Dupont Jumper Wire Cable Housing](https://ae01.alicdn.com/kf/U014c5d8be13d4190b7ccbbca497be49cn.jpg_50x50.jpg) | Dupont Jumper Wire Cable Housing | https://www.aliexpress.com/item/100PCS-2-54mm1P-2P-3P-4P-5P-6P-8P-9P-10P-Plastic-Dupont-Jumper-Wire-Cable/32568360661.html?spm=a2g0s.9042311.0.0.27424c4dDJsSAe |   
+| ![HC-SR04](https://ae01.alicdn.com/kf/Hea11df020df54705926c1e55f7c8ffa5Q/1pcs-HC-SR04-To-World-Ultrasonic-Wave-Detector-Ranging-Module-PICAXE-Microcontroller-Sensor-hc-sr04-for.jpg_50x50.jpg)|HC-SR04 To World Ultrasonic Wave Detector |https://www.aliexpress.com/item/32713522570.html?spm=a2g0o.productlist.0.0.3a1b1de2P49kWy&algo_pvid=a2ebcd2d-d372-4af8-9e32-298877e7f209&algo_expid=a2ebcd2d-d372-4af8-9e32-298877e7f209-0&btsid=cb95b55c-2af1-4459-9258-1c9fba5e3547&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_53 |  
+
 <hr/>  
 
 # Klargør linux PC (Ubuntu 18.04 LTS) :
@@ -199,13 +201,13 @@ Video : [Opret SSH login on Github](https://youtu.be/HfTXHrWMGVY?t=144)
 ls ~/.ssh
 
 # Creaate an SSH Key
-ssh-keygen -t rsa -b 4096 -C "Din GitHub email adresse"
+ssh-keygen -t rsa -b 4096 -C "me@mydomain.com" -f ~/.ssh/id_rsa_MyGithub
 ```
 Video : [Opret SSH login on Github - Copy SSH-Key](https://youtu.be/HfTXHrWMGVY?t=219)
 ```bash
 # Copy the SSH Key
 sudo apt install -y xclip
-xclip -sel clip < ~/.ssh/id_rsa.pub
+xclip -sel clip < ~/.ssh/id_rsa_MyGithub.pub
 ```
 Video : [Opret SSH login on Github - Test SSH-Key](https://youtu.be/HfTXHrWMGVY?t=245)
 
@@ -216,10 +218,68 @@ ssh -T git@github.com
 # Responce somthing like this is fine 
 # Hi sekt1953! You've successfully authenticated, but GitHub does not provide shell access.
 ```
-## Multiple SSH Keys
-* [Multiple SSH Keys settings for different github account](https://gist.github.com/jexchan/2351996)  
-* [How to manage multiple SSH key pairs](https://www.redhat.com/sysadmin/manage-multiple-ssh-key-pairs)  
-* [How can multiple private keys be used with ssh?](https://askubuntu.com/questions/1962/how-can-multiple-private-keys-be-used-with-ssh)  
+## Multiple SSH Keys settings for different github account
+* Kilde :
+  * [Multiple SSH Keys settings for different github account](https://gist.github.com/jexchan/2351996)  
+  * [How to manage multiple SSH key pairs](https://www.redhat.com/sysadmin/manage-multiple-ssh-key-pairs)  
+  * [How can multiple private keys be used with ssh?](https://askubuntu.com/questions/1962/how-can-multiple-private-keys-be-used-with-ssh)  
+### Create different public key
+create different ssh key
+```
+ssh-keygen -t rsa -b 4096 -C "user1@domain1.com" -f ~/.ssh/id_rsa_MyGithub1 
+ssh-keygen -t rsa -b 4096 -C "user2@domain2.com" -f ~/.ssh/id_rsa_MyGithub2 
+```
+for example, 2 keys pairs created at:
+```
+~/.ssh/id_rsa_MyGithub1
+~/.ssh/id_rsa_MyGithub1.pub
+~/.ssh/id_rsa_MyGithub2
+~/.ssh/id_rsa_MyGithub2.pub
+```
+then, add these two keys as following
+```
+$ ssh-add ~/.ssh/id_rsa_MyGithub1
+$ ssh-add ~/.ssh/id_rsa_MyGithub2
+```
+you can delete all cached keys before
+```
+$ ssh-add -D
+```
+finally, you can check your saved keys
+```
+$ ssh-add -l
+```
+### Modify the ssh config
+```
+$ cd ~/.ssh/
+$ touch config
+$ subl -a config
+```
+Then added
+```
+#MyGithub1 account
+Host github.com-MyGithub1
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_MyGithub1
+
+#MyGithub2 account
+Host github.com-MyGithub2
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_MyGithub2
+```
+### Modify your Git config
+for MyGithub1
+```
+$ git config user.name "user1"
+$ git config user.email "user1@domain1.com" 
+```
+for MyGithub2
+```
+$ git config user.name "user2"
+$ git config user.email "user2@domain2.com" 
+```
 
 <hr/>  
 
@@ -249,3 +309,38 @@ Video : [Git & GitHub Tutorial for Beginners #12 - Clone](https://youtu.be/HbSjy
 ```bash
 git push origin master
 ```
+## Tilføjelse af et eksisterende projekt til GitHub ved hjælp af kommandolinjen  
+  * Kilde: https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
+1. Opret et nyt arkiv på GitHub. For at undgå fejl skal du ikke initialisere det nye lager med README-, licens- eller gitignore-filer. Du kan tilføje disse filer, efter at dit projekt er blevet skubbet til GitHub.  ![New Repository](https://help.github.com/assets/images/help/repository/repo-create.png)
+2. Open Terminal.  
+3. Change the current working directory to your local project.
+4. Initialize the local directory as a Git repository. 
+```
+git init
+```
+5. Add the files in your new local repository. This stages them for the first commit.
+```
+$ git add .
+```
+6. Commit the files that you've staged in your local repository.
+```
+$ git commit -m "First commit"
+```
+7. At the top of your GitHub repository's Quick Setup page, click to copy the remote repository URL.  
+8. In Terminal, add the URL for the remote repository where your local repository will be pushed.
+```
+$ git remote add origin remote repository URL # Sets the new remote
+$ git remote -v # Verifies the new remote URL
+```
+9. Push the changes in your local repository to GitHub.
+```
+$ git push origin master # Pushes the changes in your local repository up to the remote repository you specified as the origin
+```
+## PlatformIO - Add project to source control
+   * Kilde: https://community.platformio.org/t/add-project-to-source-control/9301
+1. Open up the Command Pallette… ![Open up the Command Pallette](https://community.platformio.org/uploads/default/original/2X/8/86479d10de1c44b041bc1d76bc6adb592fc81d30.png)
+2. … and type “Git init”, and hit enter when you see “Git: Initalize Repository”. You’ll then be asked what folder to initalise the git repo in… and it’ll be added to the source control list when the repo is initialised. 
+3. As soon as the folder is intalised (meaning git has created it’s database in .git), it should turn up in the source control providers list, and then you can do your first commit, and start tracking changes
+4. You’ll basically need to do it for each folder if you want commit histories for each project, the alternative being the projects folder itself being the repo, meaning changes to all the different projects get intermingled.
+## Inviting collaborators to a personal repository
+   * Kilde: https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository
