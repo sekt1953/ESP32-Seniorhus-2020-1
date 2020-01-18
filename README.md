@@ -280,6 +280,8 @@ for MyGithub2
 $ git config user.name "user2"
 $ git config user.email "user2@domain2.com" 
 ```
+### Move public keys respective github accounts
+  * See Copy an SSH Key
 
 <hr/>  
 
