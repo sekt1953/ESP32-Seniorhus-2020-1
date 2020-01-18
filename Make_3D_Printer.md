@@ -82,4 +82,9 @@
 *  Thomas Sanladerer  
    * [E3D’s end-all extruder: The Hemera! (Full Review / “formerly known as Hermes”)](https://www.youtube.com/watch?v=XOqOd10e7RE)  
 * GEEETECH  
-  * [2-in-1out hotend](https://www.geeetech.com/2in1out-hotend-p-934.html)
+  * [2-in-1out hotend](https://www.geeetech.com/2in1out-hotend-p-934.html)  
+### Heated Bed
+  * Teaching Tech  
+    * [AC mains powered bed guide: Super fast heated bed performance](https://www.youtube.com/watch?v=ACvhenZFMIc&list=PLGqRUdq5ULsO1KoE7KAj1ehEhBZoyxdPO&index=155)  
+    * [AC mains powered bed guide: Super fast heated bed performance - UPDATED](https://www.youtube.com/watch?v=1VyFejiKkSQ)  
+    * 
