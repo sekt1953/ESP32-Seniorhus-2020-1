@@ -13,10 +13,10 @@
 ### Indtast Parameter for nyt project:
 ![PlatformIO_Project_Wizard](../Images/PlatformIO_Project_Wizard.png)
 
-  4. Name: ESP32_Blink  
-  5. Board: Espressif ESP32 Dev Module  
-  6. Framework: Arduino  
-  7. Location: Use default location  
+  4. Name: **ESP32_Delay**  
+  5. Board: **Espressif ESP32 Dev Module**  
+  6. Framework: **Arduino**  
+  7. Location: **Use default location**  
   8. Tryk på [Finish] når alle felter er udfyldt.  
 ### Åben og juster *platformio.ini* tilhørende dit project :
 ![ESP32_Blink_ini](../Images/ESP32_Blink_ini.png)
