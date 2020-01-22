@@ -156,6 +156,8 @@ Brug af millis() i hele dette indlæg kan udskiftes med mikros().
 ### Den lette løsning
 Lad os se på det enkle ikke-blokerende eksempel, vi inkluderede i det forrige blogindlæg:
 ```
+#include <Arduino.h>
+
 int period = 1000;
 unsigned long time_now = 0;
   
@@ -176,6 +178,8 @@ Her får vi en buggy opførsel efter cirka 50 dage, hvor millis() går fra at re
 
 ### Lad os nu se, hvordan vi kan løse dette:
 ```
+#include <Arduino.h>
+
 int period = 1000;
 unsigned long time_now = 0;
   
