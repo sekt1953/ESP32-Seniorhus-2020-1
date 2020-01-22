@@ -58,7 +58,8 @@ https://docs.google.com/forms/d/e/1FAIpQLSfGfbgsCQq_kk3sPVGyZUx6m9FqPH_HSMDtQ0Dw
 | ![FQP27P06 TO-220](https://ae01.alicdn.com/kf/Ue09934e05d1c48d385292ee1408f5ea6T.jpg_50x50.jpg) | FQP27P06 TO-220 | https://www.aliexpress.com/item/Free-shipping-10pcs-lot-FQP27P06-TO-220-new-original/32686752915.html?spm=a2g0s.9042311.0.0.27424c4dKaAjth | 
 | ![Dupont Jumper Wire Cable Housing](https://ae01.alicdn.com/kf/U014c5d8be13d4190b7ccbbca497be49cn.jpg_50x50.jpg) | Dupont Jumper Wire Cable Housing | https://www.aliexpress.com/item/100PCS-2-54mm1P-2P-3P-4P-5P-6P-8P-9P-10P-Plastic-Dupont-Jumper-Wire-Cable/32568360661.html?spm=a2g0s.9042311.0.0.27424c4dDJsSAe |   
 | ![HC-SR04](https://ae01.alicdn.com/kf/Hea11df020df54705926c1e55f7c8ffa5Q/1pcs-HC-SR04-To-World-Ultrasonic-Wave-Detector-Ranging-Module-PICAXE-Microcontroller-Sensor-hc-sr04-for.jpg_50x50.jpg)|HC-SR04 To World Ultrasonic Wave Detector |https://www.aliexpress.com/item/32713522570.html?spm=a2g0o.productlist.0.0.3a1b1de2P49kWy&algo_pvid=a2ebcd2d-d372-4af8-9e32-298877e7f209&algo_expid=a2ebcd2d-d372-4af8-9e32-298877e7f209-0&btsid=cb95b55c-2af1-4459-9258-1c9fba5e3547&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_53 |  
-
+| ![50W Resistor](/Images/50W-5-Aluminum-Power-Metal-Shell-Case-Wirewound-Resistor-1R-2R-3R-6R-8R-10R-1.jpg_50x50.jpg)  | 50W 5% Aluminum Power Metal Shell Case Wirewound Resistor 10R |https://www.aliexpress.com/item/32830484793.html?spm=a2g0s.9042311.0.0.27424c4dEJeWIt | 
+| ![4mm Jack](/Images/24-PCS-new-6-color-amplifier-speaker-terminals-4MM-Binding-Post-JACK-FOR-Speaker-Banana-Plug.jpg_50x50.jpg) | 24 PCS new 6 color amplifier speaker terminals 4MM Binding Post JACK FOR Speaker Banana Plug Test probe Connector |https://www.aliexpress.com/item/32805584419.html?spm=a2g0s.9042311.0.0.27424c4dDQ1mMw |
 <hr/>  
 
 # Klargør linux PC (Ubuntu 18.04 LTS) :
