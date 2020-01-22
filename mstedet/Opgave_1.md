@@ -35,6 +35,8 @@
 
 ## Brug millis() i stedet for Delay()
 ```
+#include <Arduino.h>
+
 int period = 1000;
 unsigned long time_now = 0;
  
@@ -63,6 +65,8 @@ Præcise timinger som denne er meget nyttige, når man blandt andet prøver med 
 Den anden fordel med millis () er, at det ikke forhindrer os i at køre kode, mens vi ”venter”.   
 Lad os sige, at vi vil udskrive "Hej" over serien en gang hvert sekund, mens vi gør andre ting i mellemtiden. Dette er ikke muligt med forsinkelse (), da det sætter hele koden på pause. Her er en måde, vi kan gøre dette på:  
 ```
+#include <Arduino.h>
+
 int period = 1000;
 unsigned long time_now = 0;
  
@@ -83,6 +87,8 @@ Denne kodestykke ligner den første del, bortset fra at den ikke blokerer for re
 
 #### Example: a Simple Scheduler
 ```
+#include <Arduino.h>
+
 #define INTERVAL_MESSAGE1 5000
 #define INTERVAL_MESSAGE2 7000
 #define INTERVAL_MESSAGE3 11000
@@ -93,7 +99,11 @@ unsigned long time_2 = 0;
 unsigned long time_3 = 0;
 unsigned long time_4 = 0;
  
-void print_time(unsigned long time_millis);
+void print_time(unsigned long time_millis){
+  Serial.print("Time: ");
+  Serial.print(time_millis/1000);
+  Serial.print("s - ");
+}
  
 void setup() {
   Serial.begin(115200);
@@ -123,12 +133,6 @@ void loop() {
     print_time(time_4);
     Serial.println("Message four is in the house!");
   }
-}
- 
-void print_time(unsigned long time_millis){
-  Serial.print("Time: ");
-  Serial.print(time_millis/1000);
-  Serial.print("s - ");
 }
 ```
 Sådan ser de første 60 sekunder på den serielle skærm ud:  
