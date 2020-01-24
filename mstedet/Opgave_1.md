@@ -26,7 +26,7 @@
   11. Åben filen platformio.ini  
   12. tilføj linien, 
 ```
-  "monitor_speed=115200"
+  monitor_speed=115200
 ```
   12. , den vil angiver den hastighed, der sendes og modtages data via vores serial port.  
   13. Gem nu ændringer med [CTRL]+S
