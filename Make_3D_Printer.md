@@ -56,6 +56,13 @@
   * [TMC2209 Stepper Drivers - Bigtreetech - SKR 1.3 - Install - Chris's Basement](https://www.youtube.com/watch?v=H5ea2iyOscg)  
   * [TMC2100 guide - Stepper driver upgrades part 1 / How to set VREF & firmware](https://www.youtube.com/watch?v=H41hIXdB6js)  
   * [TMC2208 guide - Stepper driver upgrades part 2](https://www.youtube.com/watch?v=7VHwcEroHPk&t=994s)  
+* 3D Modular Systems  
+  * [TMC2100 / TMC2130 / TMC2208](http://doc.3dmodularsystems.com/tmc2100-tmc2130-tmc2208-are-here/)  
+  * [the official video about Stealthchop and SpreadCycle](https://youtu.be/Q0sJlGh9WNY)  
+  * [Here is another official video showing Stallguard and Coolstep modes](https://youtu.be/Prw7wNa20Gk)  
+  * [About Coolstep](https://youtu.be/AyUDmJFsVrk)  
+* Damien Martin-Guillerez
+  * [SKR 1.3 & TMC2130 on a Creality Ender-3](https://medium.com/@damien.martin.guillerez/skr-1-3-tmc2130-on-a-creality-ender-3-b4ec4abfdfd1)
 
 ### Marlin  
 * Chris's Basement  
