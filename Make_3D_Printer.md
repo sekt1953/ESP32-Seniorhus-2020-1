@@ -94,4 +94,7 @@
   * Teaching Tech  
     * [AC mains powered bed guide: Super fast heated bed performance](https://www.youtube.com/watch?v=ACvhenZFMIc&list=PLGqRUdq5ULsO1KoE7KAj1ehEhBZoyxdPO&index=155)  
     * [AC mains powered bed guide: Super fast heated bed performance - UPDATED](https://www.youtube.com/watch?v=1VyFejiKkSQ)  
+### Filement
+  * 3DMN
+    * [Constant Supply Of Dry Filament - Dehydraspool 3D Printing Project](https://youtu.be/p1AQQ41gFDU)  
     * 
