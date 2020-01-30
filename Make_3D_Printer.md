@@ -63,6 +63,11 @@
   * [About Coolstep](https://youtu.be/AyUDmJFsVrk)  
 * Damien Martin-Guillerez
   * [SKR 1.3 & TMC2130 on a Creality Ender-3](https://medium.com/@damien.martin.guillerez/skr-1-3-tmc2130-on-a-creality-ender-3-b4ec4abfdfd1)
+### Nema17
+  * [NewbieHack.com - LEARN THE FUNDAMENTALS OF MECHATRONICS!](https://www.newbiehack.com/categories/electronicsAndMotors-nema17-62ozin-NEWBIEHACK-motors-stepping_motor-62_ozin)
+  * ![Dimensions](https://www.buildyourcnc.com/images/nema17-62oz-in-motor-datasheet.JPG)
+  * [DatasheetCafe](http://www.datasheetcafe.com/17hs4401-datasheet-stepper-motor/)
+  * ![](https://lh6.googleusercontent.com/proxy/4huYgMAP_SMVCk_Rzy4MyqJPuNQ4D2QKoEVnrdW680oPqPoHJ88Ma6qjde1OPPVZ0kGl82KNtQTs6ceAwfChlI8Os4svg6LHhLwiCtXqI5uRzznJRj4nUYif5uRAt2LkpDeVs5A)
 
 ### Marlin  
 * Chris's Basement  
