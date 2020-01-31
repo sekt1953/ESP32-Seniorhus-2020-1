@@ -102,4 +102,8 @@
 ### Filement
   * 3DMN
     * [Constant Supply Of Dry Filament - Dehydraspool 3D Printing Project](https://youtu.be/p1AQQ41gFDU)  
-    * 
+
+### Cura
+  * [Architects3DP](https://www.youtube.com/channel/UCLo3VvLjk0GH_kj76Xs5sXw/playlists)
+    * [Cura Custom Settings - Advanced 2018](https://www.youtube.com/playlist?list=PLYxd4-VziMt2i8KhHLD12Z0nvCGyJuhgu)  
+    * [Cura advanced settings 2019](https://www.youtube.com/playlist?list=PLYxd4-VziMt0x_pgZV5AK_JbPiNMY_-NT)
