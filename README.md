@@ -86,7 +86,7 @@ mkdir -p ~/Dokumenter/GitHub/
 mkdir -p ~/Dokumenter/FreeCad/
 mkdir -p ~/Dokumenter/ESP32/
 
-# installer  printrun (Prnterface)
+# installer  printrun (Pronterface)
 sudo apt update
 sudo apt install printrun
 ```
