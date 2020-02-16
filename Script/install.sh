@@ -20,3 +20,7 @@ sudo apt install -y git xclip pinta geany* vlc putty python3-distutils
 mkdir -p ~/Dokumenter/GitHub/
 mkdir -p ~/Dokumenter/FreeCad/
 mkdir -p ~/Dokumenter/ESP32/
+
+# installer  printrun (Prnterface)
+sudo apt update
+sudo apt install printrun
