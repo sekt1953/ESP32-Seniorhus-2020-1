@@ -112,7 +112,12 @@
   * [A Web UI for ESP8266 based boards connected to 3D printers](https://github.com/luc-github/ESP3D-WEBUI)  
   * [ESP3D WiFi Enable your 3D Printer](https://nathan.vertile.com/blog/2019/01/03/esp3d-wifi-enable-your-3d-printer/)
   * Video: 
-    * [Testing ESP3DLib integration of ESP3D webUI into Marlin 2.0 on ESP32
-](https://www.youtube.com/watch?v=UITB-r45y_s)
+    * [Testing ESP3DLib integration of ESP3D webUI into Marlin 2.0 on ESP32](https://www.youtube.com/watch?v=UITB-r45y_s)
     * [Install Instructions](https://github.com/luc-github/ESP3D/wiki/Install-Instructions)
     * [Cura WirelessPrinting using ESP8266 module](https://www.youtube.com/watch?v=4YOg0ReJtec)
+    * [Testing OLED display on MRR ESPA (ESP32 + Marlin)](https://www.youtube.com/watch?v=j3efGssGL-g)
+
+# ESP32 CAM
+  * [ESP32-CAM 3D Print Monitor](https://www.youtube.com/watch?v=BEPwd2yBn4I)
+  * [How to setup and use ESP32 WiFi Camera](https://www.youtube.com/watch?v=5XCb3t8J4Kg)
+  * 
