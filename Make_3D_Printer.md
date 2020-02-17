@@ -107,3 +107,12 @@
   * [Architects3DP](https://www.youtube.com/channel/UCLo3VvLjk0GH_kj76Xs5sXw/playlists)
     * [Cura Custom Settings - Advanced 2018](https://www.youtube.com/playlist?list=PLYxd4-VziMt2i8KhHLD12Z0nvCGyJuhgu)  
     * [Cura advanced settings 2019](https://www.youtube.com/playlist?list=PLYxd4-VziMt0x_pgZV5AK_JbPiNMY_-NT)
+# ESP3D
+  * [FW for ESP8266/ESP8285/ESP32 used with 3D printer](https://github.com/luc-github/ESP3D)  
+  * [A Web UI for ESP8266 based boards connected to 3D printers](https://github.com/luc-github/ESP3D-WEBUI)  
+  * [ESP3D WiFi Enable your 3D Printer](https://nathan.vertile.com/blog/2019/01/03/esp3d-wifi-enable-your-3d-printer/)
+  * Video: 
+    * [Testing ESP3DLib integration of ESP3D webUI into Marlin 2.0 on ESP32
+](https://www.youtube.com/watch?v=UITB-r45y_s)
+    * [Install Instructions](https://github.com/luc-github/ESP3D/wiki/Install-Instructions)
+    * [Cura WirelessPrinting using ESP8266 module](https://www.youtube.com/watch?v=4YOg0ReJtec)
