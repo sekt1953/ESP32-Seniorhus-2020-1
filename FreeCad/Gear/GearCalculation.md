@@ -24,9 +24,8 @@ Tooth thicknes	= CP / 2
 
 * [GEARS - the Basics](https://www.youtube.com/watch?v=uz436Ixbl-I)
 * [How to make gears in Freecad](https://www.youtube.com/watch?v=8VNhTrnFMfE)
-  * Afstand mellem gearhjul centrum = (m*(T1+T2))/2 
-  * Pitch = m = Afstand*2/(T1+T2)
-  * PCD = m * N
+  * Afstand mellem gearhjul centrum = (Module*(T1+T2))/2 
+  * Module = Afstand*2/(T1+T2)
 * [Freecad How to do Helical Gear Come fare Ingranaggio elicoidale](https://www.youtube.com/watch?v=YKH0BEwpUgM&t=183s)
 * [FreeCAD bevel gear](https://www.youtube.com/watch?v=caD9KSpn1Yw&t=27s)
 * 
