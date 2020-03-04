@@ -1,5 +1,5 @@
 # Cura Error
-## blank menu
+## blank menu,  issue_6064 
 Får du en blanke felter der hvor cura's menuer skulle være så prøv at   
 1. lukke Cura
 2. Slette  ~/.cache/qtshadercache bibliotekets indhold, med denne kommando:
