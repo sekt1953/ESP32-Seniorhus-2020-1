@@ -6,7 +6,7 @@ Eleverne skal selv medbringe en Pc til kursuset, undervisningen vil bruge et mø
 
 Kursus starter den 8/1 2020 kl.: 12:30, mødested metalværkstedet  
 * Niels Jørgen Jensen vil holde de første møder fra 8/1 til 26/2, hvor i vil begynde at definere den robot I skal bruge.
-* Svenn-Erik K. Thomsen vil begynde undervisning i programering den 8/1 2020 kl.: 12:30
+* Svenn-Erik K. Thomsen  vil begynde undervisning i programering den 8/1 2020 kl.: 12:30
 
 ## Tilmelding kan ske på ved af udfyllde spørgsmålene i disse link
 Robot & Microprosessor Kursus 2020 :
