@@ -33,3 +33,7 @@ Tooth thicknes	= CP / 2
 * [Drawing an Involute Spur Gear (HD)](https://www.youtube.com/watch?v=ZazlkIwEbpM)
 * [CALCULATION OF GEAR DIMENSIONS](https://khkgears.net/new/gear_knowledge/gear_technical_reference/calculation_gear_dimensions.html)
 * [Bevel Gear Calculator](https://www.daycounter.com/Calculators/Bevel-Gear-Calculator.phtml)
+
+[What is the diametral pitch of a gear? Why is it used?](https://www.quora.com/What-is-the-diametral-pitch-of-a-gear-Why-is-it-used)
+
+[Wikiwand](https://www.wikiwand.com/en/Gear#/Bevel)
