@@ -31,4 +31,5 @@ Tooth thicknes	= CP / 2
 * 
 * [How To Draw An Involute Gear Tooth Profile| Machine Drawing | Edusquad](https://www.youtube.com/watch?v=nQOdjP6KO54)
 * [Drawing an Involute Spur Gear (HD)](https://www.youtube.com/watch?v=ZazlkIwEbpM)
-* 
+* [CALCULATION OF GEAR DIMENSIONS](https://khkgears.net/new/gear_knowledge/gear_technical_reference/calculation_gear_dimensions.html)
+* [Bevel Gear Calculator](https://www.daycounter.com/Calculators/Bevel-Gear-Calculator.phtml)
