@@ -37,3 +37,7 @@ Tooth thicknes	= CP / 2
 [What is the diametral pitch of a gear? Why is it used?](https://www.quora.com/What-is-the-diametral-pitch-of-a-gear-Why-is-it-used)
 
 [Wikiwand](https://www.wikiwand.com/en/Gear#/Bevel)
+
+### Wikipedia
+* [List of gear nomenclature](https://en.wikipedia.org/wiki/List_of_gear_nomenclature#Pitch_cone)
+  * [Bevel gear](https://en.wikipedia.org/wiki/Bevel_gear)
