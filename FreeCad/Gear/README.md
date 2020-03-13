@@ -1,10 +1,8 @@
 
 
-* 
 
 
 
-[Wikiwand](https://www.wikiwand.com/en/Gear#/Bevel)
 
 # Gear
 * [List of gear nomenclature](https://en.wikipedia.org/wiki/List_of_gear_nomenclature#Pitch_cone)
@@ -19,7 +17,7 @@
 * [How To Draw An Involute Gear Tooth Profile| Machine Drawing | Edusquad](https://www.youtube.com/watch?v=nQOdjP6KO54)
 * [Drawing an Involute Spur Gear (HD)](https://www.youtube.com/watch?v=ZazlkIwEbpM)
 
-## # Gear Calculation:
+### Gear Calculation:
 CP 	~ Pitch  
 PCD ~ Pitch Circle dia.  
 DP	~ Diameter Picth  
@@ -44,7 +42,9 @@ Tooth thicknes	= CP / 2
 
 ## Helical Gear
 * [Freecad How to do Helical Gear Come fare Ingranaggio elicoidale](https://www.youtube.com/watch?v=YKH0BEwpUgM&t=183s)
+  
 ## Bevel Gear
 * [FreeCAD bevel gear](https://www.youtube.com/watch?v=caD9KSpn1Yw&t=27s)
 * [Bevel Gear Calculator](https://www.daycounter.com/Calculators/Bevel-Gear-Calculator.phtml)
 * [Bevel gear](https://en.wikipedia.org/wiki/Bevel_gear)
+* [Wikiwand](https://www.wikiwand.com/en/Gear#/Bevel)
