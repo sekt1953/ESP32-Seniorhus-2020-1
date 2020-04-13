@@ -15,4 +15,7 @@ Filement guide udviklet for at undgå slid i indføringen på filement Extruder,
 
 ## Version 2.00
 Filement guide udviklet for at undgå slid i indføringen på filement Extruder, denne version passer til CR-10 ny extrude med dobbelt drev. kan ses her [Ny Extruder](https://www.amazon.de/gp/product/B07TJ8PB7D/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1
-)
+), afstand til filement hul er rettet til 15 mm
+![](/FreeCad/FilementGuide-CR10-Mini/FilementGuide_0200.png)
+### Sketch002
+![](/FreeCad/FilementGuide-CR10-Mini/FilementGuide_0200_002.png)
