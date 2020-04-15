@@ -19,3 +19,6 @@ Filement guide udviklet for at undgå slid i indføringen på filement Extruder,
 ![](/FreeCad/FilementGuide-CR10-Mini/FilementGuide_0200.png)
 ### Sketch002
 ![](/FreeCad/FilementGuide-CR10-Mini/FilementGuide_0200_002.png)
+
+### Foto fra det virklige liv.
+![](/Images/CR-10-FilementGuide.png)
